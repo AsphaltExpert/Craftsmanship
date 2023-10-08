@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"ABA",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:jungle_planks"
+		},
+		"B": {
+			"item": "cms:tessat_frame"
+		}
+	},
+	"result": {
+		"item": "cms:jungle_crate",
+		"count": 8
+	}
+}

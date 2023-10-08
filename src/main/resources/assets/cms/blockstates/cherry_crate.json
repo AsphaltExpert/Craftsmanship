@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cms:block/cherry_crate"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "cms:raw_tessat_block"
+	},
+	"result": "cms:tessat_block",
+	"experience": 1.8,
+	"cookingtime": 1000
+}

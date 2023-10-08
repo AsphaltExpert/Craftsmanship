@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "B": {
+      "item": "cms:tessat_frame"
+    }
+  },
+  "result": {
+    "item": "cms:mangrove_crate",
+    "count": 8
+  }
+}

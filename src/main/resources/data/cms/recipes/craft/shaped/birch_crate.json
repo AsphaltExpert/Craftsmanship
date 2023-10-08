@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"ABA",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:birch_planks"
+		},
+		"B": {
+			"item": "cms:tessat_frame"
+		}
+	},
+	"result": {
+		"item": "cms:birch_crate",
+		"count": 8
+	}
+}

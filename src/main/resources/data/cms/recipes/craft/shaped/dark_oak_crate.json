@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"ABA",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:dark_oak_planks"
+		},
+		"B": {
+			"item": "cms:tessat_frame"
+		}
+	},
+	"result": {
+		"item": "cms:dark_oak_crate",
+		"count": 8
+	}
+}

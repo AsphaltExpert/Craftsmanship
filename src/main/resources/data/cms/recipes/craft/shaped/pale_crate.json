@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "cms:pale_planks"
+    },
+    "B": {
+      "item": "cms:tessat_frame"
+    }
+  },
+  "result": {
+    "item": "cms:pale_crate",
+    "count": 8
+  }
+}

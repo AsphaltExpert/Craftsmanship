@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"ABA",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:warped_planks"
+		},
+		"B": {
+			"item": "cms:tessat_frame"
+		}
+	},
+	"result": {
+		"item": "cms:warped_crate",
+		"count": 8
+	}
+}

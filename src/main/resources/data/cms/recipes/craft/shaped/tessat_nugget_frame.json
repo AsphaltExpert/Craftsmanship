@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"A A",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "cms:tessat_nugget"
+		}
+	},
+	"result": {
+		"item": "cms:tessat_frame",
+		"count": 2
+	}
+}

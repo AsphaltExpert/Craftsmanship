@@ -1,0 +1,35 @@
+{
+  "creativetab.material_tab": "Materialien",
+
+  "block.cms.tessat_block": "Tessatblock",
+  "block.cms.tessat_bricks": "Tessatziegel",
+  "block.cms.tessat_ore": "Tessaterz",
+  "block.cms.deepslate_tessat_ore": "Tiefenschiefertessaterz",
+  "block.cms.raw_tessat_block": "Rohtessatblock",
+
+  "block.cms.oak_crate": "Eichenholzkiste",
+  "block.cms.spruce_crate": "Fichtenholzkiste",
+  "block.cms.birch_crate": "Birkenholzkiste",
+  "block.cms.jungle_crate": "Tropenholzkiste",
+  "block.cms.acacia_crate": "Akazienholzkisten",
+  "block.cms.dark_oak_crate": "Schwarzeichenholzkiste",
+  "block.cms.mangrove_crate": "Mangrovenholzkiste",
+  "block.cms.cherry_crate": "Kirschholzkiste",
+  "block.cms.bamboo_crate": "Bambuskiste",
+  "block.cms.crimson_crate": "Karmesinkiste",
+  "block.cms.warped_crate": "Wirrkiste",
+  "block.cms.pale_crate": "Bleichholzkiste",
+
+  "block.cms.pale_planks": "Bleichholzbretter",
+
+  "item.cms.raw_tessat": "Rohtessat",
+  "item.cms.tessat_ingot": "Tessatbarren",
+  "item.cms.tessat_nugget": "Tessatklumpen",
+  "item.cms.tessat_frame": "Tessatrahmen",
+
+  "item.cms.tessat_sword": "Tessatschwert",
+  "item.cms.tessat_pickaxe": "Tessatspitzhacke",
+  "item.cms.tessat_axe": "Tessataxt",
+  "item.cms.tessat_shovel": "Tessatschaufel",
+  "item.cms.tessat_hoe": "Tessathacke"
+}

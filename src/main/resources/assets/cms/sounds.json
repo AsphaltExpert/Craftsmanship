@@ -1,0 +1,10 @@
+{
+  "the_search": {
+    "sounds": [
+      {
+        "name": "cms:the_search",
+        "stream": true
+      }
+    ]
+  }
+}

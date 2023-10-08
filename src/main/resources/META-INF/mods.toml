@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All shitted by ExoAE | Do not steal my Po pls"
+[[mods]]
+modId="cms"
+version="${mod_version}"
+displayName="Craftsmanship"
+authors="Dev: ExoAE | Design: Blueboy"
+description='''
+Craftsmanship adds a new array of metals, woods and other materials to enhance your building palette as well as granting you new
+tools to work with.
+'''
+[[dependencies.cms]]
+modId="forge"
+mandatory=true
+versionRange="47.2.0,"
+ordering="NONE"
+side="BOTH"
+[[dependencies.cms]]
+modId="minecraft"
+mandatory=true
+versionRange="1.20.1,1.21"
+ordering="NONE"
+side="BOTH"

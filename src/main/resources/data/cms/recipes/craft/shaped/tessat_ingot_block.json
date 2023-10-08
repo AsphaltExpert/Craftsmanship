@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	"AAA",
+	"AAA",
+	"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "cms:tessat_ingot"
+		}
+	},
+	"result": {
+		"item": "cms:tessat_block",
+		"count": 1
+	}
+}
