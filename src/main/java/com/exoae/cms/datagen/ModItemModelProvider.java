@@ -19,6 +19,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(ItemInit.RAW_TESSAT);
+        simpleItem(ItemInit.TESSAT_INGOT);
+        simpleItem(ItemInit.TESSAT_NUGGET);
+        simpleItem(ItemInit.TESSAT_FRAME);
+
         handheldItem(ItemInit.TESSAT_SWORD);
         handheldItem(ItemInit.TESSAT_PICKAXE);
         handheldItem(ItemInit.TESSAT_AXE);
