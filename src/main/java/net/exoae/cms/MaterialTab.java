@@ -1,8 +1,8 @@
-package com.exoae.cms;
+package net.exoae.cms;
 
 
-import com.exoae.cms.init.BlockInit;
-import com.exoae.cms.init.ItemInit;
+import net.exoae.cms.init.BlockInit;
+import net.exoae.cms.init.ItemInit;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

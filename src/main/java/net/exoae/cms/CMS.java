@@ -1,9 +1,8 @@
-package com.exoae.cms;
+package net.exoae.cms;
 
-import com.exoae.cms.init.BlockInit;
+import net.exoae.cms.init.BlockInit;
 import com.mojang.logging.LogUtils;
-import com.exoae.cms.MaterialTab;
-import com.exoae.cms.init.ItemInit;
+import net.exoae.cms.init.ItemInit;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;

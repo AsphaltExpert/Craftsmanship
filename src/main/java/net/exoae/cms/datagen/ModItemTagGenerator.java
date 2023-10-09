@@ -1,12 +1,10 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.ItemInit;
+import net.exoae.cms.CMS;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;

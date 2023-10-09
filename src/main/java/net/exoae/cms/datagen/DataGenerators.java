@@ -1,6 +1,6 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.CMS;
+import net.exoae.cms.CMS;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

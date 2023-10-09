@@ -1,7 +1,6 @@
-package com.exoae.cms.init;
+package net.exoae.cms.init;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.SoundsInit;
+import net.exoae.cms.CMS;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

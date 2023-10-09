@@ -1,8 +1,7 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.ItemInit;
-import com.exoae.cms.init.BlockInit;
+import net.exoae.cms.CMS;
+import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

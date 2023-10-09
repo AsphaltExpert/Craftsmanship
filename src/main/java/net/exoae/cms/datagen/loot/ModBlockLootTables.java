@@ -1,7 +1,7 @@
-package com.exoae.cms.datagen.loot;
+package net.exoae.cms.datagen.loot;
 
-import com.exoae.cms.init.BlockInit;
-import com.exoae.cms.init.ItemInit;
+import net.exoae.cms.init.BlockInit;
+import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;

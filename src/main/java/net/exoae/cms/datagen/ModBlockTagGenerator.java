@@ -1,8 +1,8 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.BlockInit;
-import com.exoae.cms.util.ModTags;
+import net.exoae.cms.CMS;
+import net.exoae.cms.init.BlockInit;
+import net.exoae.cms.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;

@@ -1,7 +1,7 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.BlockInit;
+import net.exoae.cms.CMS;
+import net.exoae.cms.init.BlockInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;

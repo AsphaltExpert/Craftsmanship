@@ -1,6 +1,6 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.datagen.loot.ModBlockLootTables;
+import net.exoae.cms.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;

@@ -1,6 +1,6 @@
-package com.exoae.cms.init;
+package net.exoae.cms.init;
 
-import com.exoae.cms.CMS;
+import net.exoae.cms.CMS;
 import java.util.function.Supplier;
 
 import net.minecraft.util.valueproviders.UniformInt;

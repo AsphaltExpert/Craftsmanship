@@ -1,13 +1,10 @@
-package com.exoae.cms.datagen;
+package net.exoae.cms.datagen;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.init.BlockInit;
-import com.exoae.cms.init.ItemInit;
-import net.minecraft.client.Minecraft;
+import net.exoae.cms.CMS;
+import net.exoae.cms.init.BlockInit;
+import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;

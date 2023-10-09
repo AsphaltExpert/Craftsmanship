@@ -1,7 +1,7 @@
-package com.exoae.cms.init;
+package net.exoae.cms.init;
 
-import com.exoae.cms.CMS;
-import com.exoae.cms.util.ModTags;
+import net.exoae.cms.CMS;
+import net.exoae.cms.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;

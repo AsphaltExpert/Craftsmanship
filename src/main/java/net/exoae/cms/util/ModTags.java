@@ -1,6 +1,6 @@
-package com.exoae.cms.util;
+package net.exoae.cms.util;
 
-import com.exoae.cms.CMS;
+import net.exoae.cms.CMS;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
