@@ -12,7 +12,8 @@
 		"cms:bamboo_crate",
 		"cms:crimson_crate",
 		"cms:warped_crate",
-		"cms:pale_crate"
+		"cms:pale_crate",
+		"cms:pale_planks"
 		
 	]
 }
