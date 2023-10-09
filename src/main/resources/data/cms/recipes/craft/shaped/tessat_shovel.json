@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "A",
+    "/",
+    "/"
+  ],
+  "key": {
+    "A": {
+      "item": "cms:tessat_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cms:tessat_shovel",
+    "count": 1
+  }
+}

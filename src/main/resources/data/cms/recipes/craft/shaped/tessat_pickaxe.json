@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "AAA",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "A": {
+      "item": "cms:tessat_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cms:tessat_pickaxe",
+    "count": 1
+  }
+}
