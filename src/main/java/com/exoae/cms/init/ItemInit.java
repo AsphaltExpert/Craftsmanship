@@ -34,7 +34,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> TESSAT_HOE = ITEMS.register("tessat_hoe",
 			() -> new HoeItem(ToolTiersInit.TESSAT, 0,0, new Item.Properties()));
 
-	public static final RegistryObject<ShearsItem> TESSAT_SHEARS = ITEMS.register("tessat_shears",
+	public static final RegistryObject<Item> TESSAT_SHEARS = ITEMS.register("tessat_shears",
 			() -> new ShearsItem(new Item.Properties()));
 
 	public static void register(IEventBus eventBus) {

@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ItemInit.TESSAT_AXE);
         handheldItem(ItemInit.TESSAT_SHOVEL);
         handheldItem(ItemInit.TESSAT_HOE);
+
+        handheldItem(ItemInit.TESSAT_SHEARS);
     }
 
 
