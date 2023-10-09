@@ -1,8 +1,8 @@
 {
-  "the_search": {
+  "t_s": {
     "sounds": [
       {
-        "name": "cms:the_search",
+        "name": "cms:t_s",
         "stream": true
       }
     ]
