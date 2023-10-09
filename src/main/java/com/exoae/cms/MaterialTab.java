@@ -57,6 +57,7 @@ public class MaterialTab {
                         pOutput.accept(ItemInit.TESSAT_AXE.get());
                         pOutput.accept(ItemInit.TESSAT_SHOVEL.get());
                         pOutput.accept(ItemInit.TESSAT_HOE.get());
+                        pOutput.accept(ItemInit.TESSAT_SHEARS.get());
                     }
                     ).build());
 

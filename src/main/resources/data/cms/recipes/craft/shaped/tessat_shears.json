@@ -2,20 +2,16 @@
   "type": "minecraft:crafting_shaped",
 
   "pattern": [
-    "AA",
-    "/A ",
-    "/ "
-  ],
+    " A",
+    "A "
+    ],
   "key": {
     "A": {
       "item": "cms:tessat_ingot"
-    },
-    "/": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "cms:tessat_axe",
+    "item": "cms:tessat_shears",
     "count": 1
   }
 }
