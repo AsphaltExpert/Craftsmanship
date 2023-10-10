@@ -352,7 +352,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .pattern("NNN")
                         .define('N', ItemInit.TESSAT_NUGGET.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
-                        .save(pWriter, "N-TESSAT_INGOT");
+                        .save(pWriter, "n_tessat_ingot");
 
                 ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_FRAME.get())
                         .pattern("NNN")
@@ -431,7 +431,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 9)
                         .requires(BlockInit.TESSAT_BLOCK.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
-                        .save(pWriter, "B-TESSAT_INGOT");
+                        .save(pWriter, "b_tessat_ingot");
 
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_NUGGET.get(), 9)
                         .requires(ItemInit.TESSAT_INGOT.get())

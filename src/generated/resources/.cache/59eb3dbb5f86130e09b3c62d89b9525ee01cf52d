@@ -1,19 +1,35 @@
-// 1.20.1	2023-10-10T22:11:49.8463107	Loot Tables
+// 1.20.1	2023-10-10T23:51:20.4076936	Loot Tables
 408774eadb8fcd503e483146d2275bfa0bddafde data/cms/loot_tables/blocks/acacia_crate.json
 0697cb76089f875afa34cce70293021b8c1eb27a data/cms/loot_tables/blocks/bamboo_crate.json
 6ee0ccb38189b14a78e0b8ed9456949401ba8e6b data/cms/loot_tables/blocks/birch_crate.json
+468d7bcc3228e68709d2240a8d0bc76736e9b9ca data/cms/loot_tables/blocks/black_planks.json
+0d0a2a05bcf851da30bfae3240420c7fcd5420e2 data/cms/loot_tables/blocks/blue_planks.json
+cdabcacf658f6004c3e15a78a09f9b634d7c4f59 data/cms/loot_tables/blocks/brown_planks.json
 4806a36b9bdeb07629a457b7d6a99cd7c3613469 data/cms/loot_tables/blocks/cherry_crate.json
 748d83c209547435f96df5c427bd9070716cfaa4 data/cms/loot_tables/blocks/crimson_crate.json
+6220b17135a65f27729e9a8645f3eac116660184 data/cms/loot_tables/blocks/cyan_planks.json
 be287f3bdbb5d449b211bd65a3cc92c7e9678a46 data/cms/loot_tables/blocks/dark_oak_crate.json
 21a145fe071f018e12dc0ba649ecaa68c4330eb6 data/cms/loot_tables/blocks/deepslate_tessat_ore.json
+ff28f3f2f1141194de81cd6bc3a5d79c36e0cfa3 data/cms/loot_tables/blocks/gray_planks.json
+e6cabea40c0bc5c342d4eb08eb0f282db53cb89f data/cms/loot_tables/blocks/green_planks.json
 602eee2d1bb21e6ac57212a11dec9561970b4e0b data/cms/loot_tables/blocks/jungle_crate.json
+2320364418e3d53018580520b5d1d14de1b78681 data/cms/loot_tables/blocks/light_blue_planks.json
+d9ecd0af1623ab5d057f02fc5b8823bc91d96841 data/cms/loot_tables/blocks/light_gray_planks.json
+4fbeaf3dd19def10f34f3fd114a4bf94356eab96 data/cms/loot_tables/blocks/lime_planks.json
+5198e631148f86180d5588a27e38a453395b1255 data/cms/loot_tables/blocks/magenta_planks.json
 f2b9a1bfc498644730138d27cdf574c181ee8d70 data/cms/loot_tables/blocks/mangrove_crate.json
 530464b4ed443793c6cd5649e4d56881faf48f06 data/cms/loot_tables/blocks/oak_crate.json
+816d3fb81cfcb33988b8e4ae26b1f325251f07e4 data/cms/loot_tables/blocks/orange_planks.json
 4d2ee7ad20d10878778ae34372dbe6e692c65edd data/cms/loot_tables/blocks/pale_crate.json
 7b37d0c0fe3149ea0103ca55c792f86308c7bd15 data/cms/loot_tables/blocks/pale_planks.json
+7c8f5cd19bef43cc4b1f88100e02512985561f9b data/cms/loot_tables/blocks/pink_planks.json
+25082a5cce73cfaf554f3f04aa228df0e64c3608 data/cms/loot_tables/blocks/purple_planks.json
 e71fe498773e76379d3dd64bc01b1324648132c7 data/cms/loot_tables/blocks/raw_tessat_block.json
+12600ce0b73427258343f4e87cbd77b7050cfd2d data/cms/loot_tables/blocks/red_planks.json
 3afba2a3d3d988c9200d1088534fb73073d6c280 data/cms/loot_tables/blocks/spruce_crate.json
 702f0eeb99d718215ed77103d87b11196ec30f1c data/cms/loot_tables/blocks/tessat_block.json
 e3c8b6e66abb8b74b6890fab51236800f5d46b84 data/cms/loot_tables/blocks/tessat_bricks.json
 cede63e95e47b59f54d0f75e50ef18d9cc19d7a4 data/cms/loot_tables/blocks/tessat_ore.json
 aa6e99e2241b429a9c6d7cf915db95635b69efa4 data/cms/loot_tables/blocks/warped_crate.json
+e0c5e297dd608664af704ce617fb118ef5f68f84 data/cms/loot_tables/blocks/white_planks.json
+b3739a2c91c9b905b3ed6a872859f266506afd47 data/cms/loot_tables/blocks/yellow_planks.json

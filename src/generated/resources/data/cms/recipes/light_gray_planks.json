@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "P": {
+      "item": "cms:pale_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "item": "cms:light_gray_planks"
+  },
+  "show_notification": true
+}

@@ -12,6 +12,22 @@
     "cms:crimson_crate",
     "cms:warped_crate",
     "cms:pale_crate",
-    "cms:pale_planks"
+    "cms:pale_planks",
+    "cms:white_planks",
+    "cms:light_gray_planks",
+    "cms:gray_planks",
+    "cms:black_planks",
+    "cms:brown_planks",
+    "cms:red_planks",
+    "cms:orange_planks",
+    "cms:yellow_planks",
+    "cms:lime_planks",
+    "cms:green_planks",
+    "cms:cyan_planks",
+    "cms:light_blue_planks",
+    "cms:blue_planks",
+    "cms:purple_planks",
+    "cms:magenta_planks",
+    "cms:pink_planks"
   ]
 }

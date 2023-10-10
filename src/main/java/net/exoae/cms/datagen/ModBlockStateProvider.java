@@ -47,6 +47,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(BlockInit.GRAY_PLANKS);
         blockWithItem(BlockInit.BLACK_PLANKS);
         blockWithItem(BlockInit.BROWN_PLANKS);
+        blockWithItem(BlockInit.RED_PLANKS);
         blockWithItem(BlockInit.ORANGE_PLANKS);
         blockWithItem(BlockInit.YELLOW_PLANKS);
         blockWithItem(BlockInit.LIME_PLANKS);

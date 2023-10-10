@@ -51,6 +51,7 @@ public class MaterialTab {
                         pOutput.accept(BlockInit.GRAY_PLANKS.get());
                         pOutput.accept(BlockInit.BLACK_PLANKS.get());
                         pOutput.accept(BlockInit.BROWN_PLANKS.get());
+                        pOutput.accept(BlockInit.RED_PLANKS.get());
                         pOutput.accept(BlockInit.ORANGE_PLANKS.get());
                         pOutput.accept(BlockInit.YELLOW_PLANKS.get());
                         pOutput.accept(BlockInit.LIME_PLANKS.get());

@@ -47,6 +47,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         BlockInit.GRAY_PLANKS.get(),
                         BlockInit.BLACK_PLANKS.get(),
                         BlockInit.BROWN_PLANKS.get(),
+                        BlockInit.RED_PLANKS.get(),
                         BlockInit.ORANGE_PLANKS.get(),
                         BlockInit.YELLOW_PLANKS.get(),
                         BlockInit.LIME_PLANKS.get(),

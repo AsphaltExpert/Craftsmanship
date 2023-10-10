@@ -57,6 +57,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(BlockInit.GRAY_PLANKS.get());
         this.dropSelf(BlockInit.BLACK_PLANKS.get());
         this.dropSelf(BlockInit.BROWN_PLANKS.get());
+        this.dropSelf(BlockInit.RED_PLANKS.get());
         this.dropSelf(BlockInit.ORANGE_PLANKS.get());
         this.dropSelf(BlockInit.YELLOW_PLANKS.get());
         this.dropSelf(BlockInit.LIME_PLANKS.get());

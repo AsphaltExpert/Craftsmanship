@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cms:tessat_ingot"
+        "recipe": "cms:black_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "cms:tessat_ingot"
+      "cms:black_planks"
     ]
   },
   "sends_telemetry_event": false
