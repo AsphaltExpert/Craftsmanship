@@ -30,6 +30,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ItemInit.TESSAT_HOE);
 
         handheldItem(ItemInit.TESSAT_SHEARS);
+        handheldItem(ItemInit.TESSAT_FISHING_ROD);
     }
 
 
