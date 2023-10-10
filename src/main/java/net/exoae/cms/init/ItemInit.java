@@ -24,17 +24,18 @@ public class ItemInit {
 	//TESSATTOOLS
 	public static final RegistryObject<Item> TESSAT_SWORD = ITEMS.register("tessat_sword",
 			() -> new SwordItem(ToolTiersInit.TESSAT, 4,2, new Item.Properties()));
+	public static final RegistryObject<Item> TESSAT_SHOVEL = ITEMS.register("tessat_shovel",
+			() -> new ShovelItem(ToolTiersInit.TESSAT, 0,0, new Item.Properties()));
 	public static final RegistryObject<Item> TESSAT_PICKAXE = ITEMS.register("tessat_pickaxe",
 			() -> new PickaxeItem(ToolTiersInit.TESSAT, 1,1, new Item.Properties()));
 	public static final RegistryObject<Item> TESSAT_AXE = ITEMS.register("tessat_axe",
 			() -> new AxeItem(ToolTiersInit.TESSAT, 7,1, new Item.Properties()));
-	public static final RegistryObject<Item> TESSAT_SHOVEL = ITEMS.register("tessat_shovel",
-			() -> new ShovelItem(ToolTiersInit.TESSAT, 0,0, new Item.Properties()));
 	public static final RegistryObject<Item> TESSAT_HOE = ITEMS.register("tessat_hoe",
 			() -> new HoeItem(ToolTiersInit.TESSAT, 0,0, new Item.Properties()));
-
 	public static final RegistryObject<Item> TESSAT_SHEARS = ITEMS.register("tessat_shears",
 			() -> new ShearsItem(new Item.Properties().durability(476)));
+	/*public static final RegistryObject<Item> TESSAT_FISHING_ROD = ITEMS.register("tessat_fishing_rod",
+			() -> new FishingRodItem(new Item.Properties().durability(256)));*/
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

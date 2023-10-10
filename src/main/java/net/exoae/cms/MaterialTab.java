@@ -53,9 +53,9 @@ public class MaterialTab {
 
                         //TESSATTOOLS
                         pOutput.accept(ItemInit.TESSAT_SWORD.get());
+                        pOutput.accept(ItemInit.TESSAT_SHOVEL.get());
                         pOutput.accept(ItemInit.TESSAT_PICKAXE.get());
                         pOutput.accept(ItemInit.TESSAT_AXE.get());
-                        pOutput.accept(ItemInit.TESSAT_SHOVEL.get());
                         pOutput.accept(ItemInit.TESSAT_HOE.get());
                         pOutput.accept(ItemInit.TESSAT_SHEARS.get());
                     }

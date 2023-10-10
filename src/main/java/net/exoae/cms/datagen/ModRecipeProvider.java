@@ -5,6 +5,7 @@ import net.exoae.cms.init.BlockInit;
 import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -30,7 +31,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-
         //SMELTING
         //   ||
         //   \/
@@ -57,12 +57,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //SHAPED-CRAFTING
         //   ||
         //   \/
-        //TESSAT
+        //TESSATBLOCK
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.TESSAT_BLOCK.get())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.TESSAT_BRICKS.get())
+                .pattern("NN")
+                .pattern("NN")
+                .define('N', ItemInit.TESSAT_NUGGET.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.RAW_TESSAT_BLOCK.get())
                 .pattern("TTT")
                 .pattern("TTT")
                 .pattern("TTT")
-                .define('T', ItemInit.TESSAT_INGOT.get())
+                .define('T', ItemInit.RAW_TESSAT.get())
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
 
@@ -174,6 +189,101 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('F', ItemInit.TESSAT_FRAME.get())
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
+
+        //ITEM
+
+        //TESSATITEM
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get())
+                .pattern("NNN")
+                .pattern("NNN")
+                .pattern("NNN")
+                .define('N', ItemInit.TESSAT_NUGGET.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_FRAME.get())
+                .pattern("NNN")
+                .pattern("N N")
+                .pattern("NNN")
+                .define('N', ItemInit.TESSAT_NUGGET.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        //TESSATTOOLS
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_SWORD.get())
+                .pattern("I")
+                .pattern("I")
+                .pattern("/")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_SHOVEL.get())
+                .pattern("I")
+                .pattern("/")
+                .pattern("/")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_PICKAXE.get())
+                .pattern("III")
+                .pattern(" / ")
+                .pattern(" / ")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_AXE.get())
+                .pattern("II")
+                .pattern("I/")
+                .pattern(" /")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_AXE.get())
+                .pattern("II")
+                .pattern("/I")
+                .pattern("/ ")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);*/
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_HOE.get())
+                .pattern("II")
+                .pattern(" /")
+                .pattern(" /")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_HOE.get())
+                .pattern("II")
+                .pattern("/ ")
+                .pattern("/ ")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .define('/', Items.STICK)
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);*/
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_SHEARS.get())
+                .pattern("I ")
+                .pattern(" I")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_SHEARS.get())
+                .pattern(" I")
+                .pattern("I ")
+                .define('I', ItemInit.TESSAT_INGOT.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);*/
         //   /\
         //   ||
         //SHAPED-CRAFTING
