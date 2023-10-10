@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "cms:tessat_frame"
+    },
+    "P": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PFP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "item": "cms:mangrove_crate"
+  },
+  "show_notification": true
+}

@@ -65,6 +65,115 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('T', ItemInit.TESSAT_INGOT.get())
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
+
+        //CRATES
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.OAK_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.OAK_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.SPRUCE_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.SPRUCE_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.BIRCH_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.BIRCH_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.JUNGLE_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.JUNGLE_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.ACACIA_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.ACACIA_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.DARK_OAK_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.DARK_OAK_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.MANGROVE_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.MANGROVE_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.CHERRY_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.CHERRY_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.BAMBOO_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.BAMBOO_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.CRIMSON_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.CRIMSON_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.WARPED_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', Blocks.WARPED_PLANKS)
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.PALE_CRATE.get(), 8)
+                .pattern("PPP")
+                .pattern("PFP")
+                .pattern("PPP")
+                .define('P', BlockInit.PALE_PLANKS.get())
+                .define('F', ItemInit.TESSAT_FRAME.get())
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                .save(pWriter);
         //   /\
         //   ||
         //SHAPED-CRAFTING
