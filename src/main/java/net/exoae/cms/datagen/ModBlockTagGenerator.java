@@ -41,7 +41,22 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         BlockInit.CRIMSON_CRATE.get(),
                         BlockInit.WARPED_CRATE.get(),
                         BlockInit.PALE_CRATE.get(),
-                        BlockInit.PALE_PLANKS.get());
+                        BlockInit.PALE_PLANKS.get(),
+                        BlockInit.WHITE_PLANKS.get(),
+                        BlockInit.LIGHT_GRAY_PLANKS.get(),
+                        BlockInit.GRAY_PLANKS.get(),
+                        BlockInit.BLACK_PLANKS.get(),
+                        BlockInit.BROWN_PLANKS.get(),
+                        BlockInit.ORANGE_PLANKS.get(),
+                        BlockInit.YELLOW_PLANKS.get(),
+                        BlockInit.LIME_PLANKS.get(),
+                        BlockInit.GREEN_PLANKS.get(),
+                        BlockInit.CYAN_PLANKS.get(),
+                        BlockInit.LIGHT_BLUE_PLANKS.get(),
+                        BlockInit.BLUE_PLANKS.get(),
+                        BlockInit.PURPLE_PLANKS.get(),
+                        BlockInit.MAGENTA_PLANKS.get(),
+                        BlockInit.PINK_PLANKS.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(BlockInit.TESSAT_BLOCK.get(),

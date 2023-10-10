@@ -57,7 +57,7 @@ public class BlockInit {
 
 	public static final RegistryObject<Block> ACACIA_CRATE = registerBlock("acacia_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-	
+
 	public static final RegistryObject<Block> DARK_OAK_CRATE = registerBlock("dark_oak_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 
@@ -80,10 +80,42 @@ public class BlockInit {
 			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
 	//PLANKS
-
 	public static final RegistryObject<Block> PALE_PLANKS = registerBlock("pale_planks", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
+	//COLORED PLANKS
+	public static final RegistryObject<Block> WHITE_PLANKS = registerBlock("white_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+	public static final RegistryObject<Block> LIGHT_GRAY_PLANKS = registerBlock("light_gray_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+	public static final RegistryObject<Block> GRAY_PLANKS = registerBlock("gray_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
+	public static final RegistryObject<Block> BLACK_PLANKS = registerBlock("black_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+	public static final RegistryObject<Block> BROWN_PLANKS = registerBlock("brown_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
+	public static final RegistryObject<Block> RED_PLANKS = registerBlock("red_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+	public static final RegistryObject<Block> ORANGE_PLANKS = registerBlock("orange_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+	public static final RegistryObject<Block> YELLOW_PLANKS = registerBlock("yellow_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+	public static final RegistryObject<Block> LIME_PLANKS = registerBlock("lime_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+	public static final RegistryObject<Block> GREEN_PLANKS = registerBlock("green_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+	public static final RegistryObject<Block> CYAN_PLANKS = registerBlock("cyan_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+	public static final RegistryObject<Block> LIGHT_BLUE_PLANKS = registerBlock("light_blue_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+	public static final RegistryObject<Block> BLUE_PLANKS = registerBlock("blue_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
+	public static final RegistryObject<Block> PURPLE_PLANKS = registerBlock("purple_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+	public static final RegistryObject<Block> MAGENTA_PLANKS = registerBlock("magenta_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+	public static final RegistryObject<Block> PINK_PLANKS = registerBlock("pink_planks", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 	//END
 
 	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)

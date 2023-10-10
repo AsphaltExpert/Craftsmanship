@@ -50,6 +50,23 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         //PLANKS
         this.dropSelf(BlockInit.PALE_PLANKS.get());
+
+        //COLORED PLANKS
+        this.dropSelf(BlockInit.WHITE_PLANKS.get());
+        this.dropSelf(BlockInit.LIGHT_GRAY_PLANKS.get());
+        this.dropSelf(BlockInit.GRAY_PLANKS.get());
+        this.dropSelf(BlockInit.BLACK_PLANKS.get());
+        this.dropSelf(BlockInit.BROWN_PLANKS.get());
+        this.dropSelf(BlockInit.ORANGE_PLANKS.get());
+        this.dropSelf(BlockInit.YELLOW_PLANKS.get());
+        this.dropSelf(BlockInit.LIME_PLANKS.get());
+        this.dropSelf(BlockInit.GREEN_PLANKS.get());
+        this.dropSelf(BlockInit.CYAN_PLANKS.get());
+        this.dropSelf(BlockInit.LIGHT_BLUE_PLANKS.get());
+        this.dropSelf(BlockInit.BLUE_PLANKS.get());
+        this.dropSelf(BlockInit.PURPLE_PLANKS.get());
+        this.dropSelf(BlockInit.MAGENTA_PLANKS.get());
+        this.dropSelf(BlockInit.PINK_PLANKS.get());
     }
 
     protected LootTable.Builder createTessatOreDrops(Block pBlock, Item item) {

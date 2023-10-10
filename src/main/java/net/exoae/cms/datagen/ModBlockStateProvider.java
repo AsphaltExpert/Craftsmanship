@@ -40,6 +40,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         //PLANKS
         blockWithItem(BlockInit.PALE_PLANKS);
+
+        //COLORED PLANKS
+        blockWithItem(BlockInit.WHITE_PLANKS);
+        blockWithItem(BlockInit.LIGHT_GRAY_PLANKS);
+        blockWithItem(BlockInit.GRAY_PLANKS);
+        blockWithItem(BlockInit.BLACK_PLANKS);
+        blockWithItem(BlockInit.BROWN_PLANKS);
+        blockWithItem(BlockInit.ORANGE_PLANKS);
+        blockWithItem(BlockInit.YELLOW_PLANKS);
+        blockWithItem(BlockInit.LIME_PLANKS);
+        blockWithItem(BlockInit.GREEN_PLANKS);
+        blockWithItem(BlockInit.CYAN_PLANKS);
+        blockWithItem(BlockInit.LIGHT_BLUE_PLANKS);
+        blockWithItem(BlockInit.BLUE_PLANKS);
+        blockWithItem(BlockInit.PURPLE_PLANKS);
+        blockWithItem(BlockInit.MAGENTA_PLANKS);
+        blockWithItem(BlockInit.PINK_PLANKS);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -45,6 +45,23 @@ public class MaterialTab {
                         //PLANKS
                         pOutput.accept(BlockInit.PALE_PLANKS.get());
 
+                        //COLORED PLANKS
+                        pOutput.accept(BlockInit.WHITE_PLANKS.get());
+                        pOutput.accept(BlockInit.LIGHT_GRAY_PLANKS.get());
+                        pOutput.accept(BlockInit.GRAY_PLANKS.get());
+                        pOutput.accept(BlockInit.BLACK_PLANKS.get());
+                        pOutput.accept(BlockInit.BROWN_PLANKS.get());
+                        pOutput.accept(BlockInit.ORANGE_PLANKS.get());
+                        pOutput.accept(BlockInit.YELLOW_PLANKS.get());
+                        pOutput.accept(BlockInit.LIME_PLANKS.get());
+                        pOutput.accept(BlockInit.GREEN_PLANKS.get());
+                        pOutput.accept(BlockInit.CYAN_PLANKS.get());
+                        pOutput.accept(BlockInit.LIGHT_BLUE_PLANKS.get());
+                        pOutput.accept(BlockInit.BLUE_PLANKS.get());
+                        pOutput.accept(BlockInit.PURPLE_PLANKS.get());
+                        pOutput.accept(BlockInit.MAGENTA_PLANKS.get());
+                        pOutput.accept(BlockInit.PINK_PLANKS.get());
+
                         //TESSATITEM
                         pOutput.accept(ItemInit.TESSAT_INGOT.get());
                         pOutput.accept(ItemInit.RAW_TESSAT.get());
