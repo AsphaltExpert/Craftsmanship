@@ -22,6 +22,23 @@
 
   "block.cms.pale_planks": "Bleichholzbretter",
 
+  "block.cms.white_planks": "Weiße Holzbretter",
+  "block.cms.light_gray_planks": "Hellgraue Holzbretter",
+  "block.cms.gray_planks": "Graue Holzbretter",
+  "block.cms.black_planks": "Schwarze Holzbretter",
+  "block.cms.brown_planks": "Braune Holzbretter",
+  "block.cms.red_planks": "Rote Holzbretter",
+  "block.cms.orange_planks": "Orange Holzbretter",
+  "block.cms.yellow_planks": "Gelbe Holzbretter",
+  "block.cms.lime_planks": "Hellgrüne Holzbretter",
+  "block.cms.green_planks": "Grüne Holzbretter",
+  "block.cms.cyan_planks": "Türkise Holzbretter",
+  "block.cms.light_blue_planks": "Hellblaue Holzbretter",
+  "block.cms.blue_planks": "Blaue Holzbretter",
+  "block.cms.purple_planks": "Violette Holzbretter",
+  "block.cms.magenta_planks": "Magenta Holzbretter",
+  "block.cms.pink_planks": "Rosa Holzbretter",
+
   "item.cms.raw_tessat": "Rohtessat",
   "item.cms.tessat_ingot": "Tessatbarren",
   "item.cms.tessat_nugget": "Tessatklumpen",
