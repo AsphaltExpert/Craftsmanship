@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-10T23:51:20.4117131	Recipes
+// 1.20.1	2023-10-11T00:09:50.2705754	Recipes
 8f8088db790e82243d9c7c05de732125e52bbcab data/cms/advancements/recipes/misc/acacia_crate.json
 306bd7e07534cec4ad3e403b87bbb7d59c214554 data/cms/advancements/recipes/misc/bamboo_crate.json
 54504c981ca6f6e1f119cafb1722e4e37e23884f data/cms/advancements/recipes/misc/birch_crate.json
@@ -37,6 +37,7 @@ cbc0a4ba4f8ba1921117005a0b63d79b6bfddd9d data/cms/advancements/recipes/misc/tess
 cbbb4e3746e544d2e83c9b27912e1e146d988d2d data/cms/advancements/recipes/misc/tessat_block_from_blasting_raw_tessat_block.json
 e87e03531958892a66da32f92ccd36a6bf3c5e23 data/cms/advancements/recipes/misc/tessat_block_from_smelting_raw_tessat_block.json
 8e636723756e161e5fa797d3c0368b73454dcdf4 data/cms/advancements/recipes/misc/tessat_bricks.json
+1db56ac3b819a0650b18f5a110cf723f86892e21 data/cms/advancements/recipes/misc/tessat_fishing_rod.json
 de10c79b114f7952bb132a1093808c1cf94a982a data/cms/advancements/recipes/misc/tessat_frame.json
 3b1c1e9a8562af71783c3a56182395d9efd51a88 data/cms/advancements/recipes/misc/tessat_hoe.json
 1bd37c8df27b96b24a4b29dceef7c697204b6934 data/cms/advancements/recipes/misc/tessat_ingot_from_blasting_deepslate_tessat_ore.json
@@ -91,6 +92,7 @@ d2425424e5fd1388ba09b56f63e95218a6604672 data/cms/recipes/tessat_axe.json
 5ead026237bdb968600dc88b0269080b8b3f6abf data/cms/recipes/tessat_block_from_blasting_raw_tessat_block.json
 6143d4037dccf74660edbcb580c1d646d0fdea8b data/cms/recipes/tessat_block_from_smelting_raw_tessat_block.json
 d45028926ce9f56ef5cb4cc64cd7a3e48645f370 data/cms/recipes/tessat_bricks.json
+cc012c9011a090673c5ceacc703f6c2498b0dd91 data/cms/recipes/tessat_fishing_rod.json
 fc76b70504e59cc79501585f011d57f57fba4d8e data/cms/recipes/tessat_frame.json
 139a168cfcfb8b59cbc179f5571082b8746da98c data/cms/recipes/tessat_hoe.json
 df4e5745ff42e66ea3dd78e3cb97b34393a53ed8 data/cms/recipes/tessat_ingot_from_blasting_deepslate_tessat_ore.json
