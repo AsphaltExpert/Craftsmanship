@@ -64,7 +64,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("TTT")
 
                 .define('T', ItemInit.TESSAT_INGOT.get())
-                //.unlockedBy(getHasName(ItemInit.TESSAT_INGOT.get()), has(ItemInit.TESSAT_INGOT.get()))
+                .unlockedBy(getHasName(ItemInit.TESSAT_INGOT.get()), has(ItemInit.TESSAT_INGOT.get()))
                 .save(pWriter);
         //   /\
         //   ||
@@ -76,15 +76,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //TESSAT
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 9)
                 .requires(BlockInit.TESSAT_BLOCK.get())
-                //.unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(BlockInit.TESSAT_BLOCK.get()))
+                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(BlockInit.TESSAT_BLOCK.get()))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_NUGGET.get(), 9)
                 .requires(ItemInit.TESSAT_INGOT.get())
-                //.unlockedBy(getHasName(ItemInit.TESSAT_INGOT.get()), has(ItemInit.TESSAT_INGOT.get()))
-                .save(pWriter);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 9)
-                .requires(BlockInit.TESSAT_BLOCK.get())
-                //.unlockedBy(getHasName(BlockInit.TESSAT_BLOCK.get()), has(BlockInit.TESSAT_BLOCK.get()))
+                .unlockedBy(getHasName(ItemInit.TESSAT_INGOT.get()), has(ItemInit.TESSAT_INGOT.get()))
                 .save(pWriter);
 
         //   /\
