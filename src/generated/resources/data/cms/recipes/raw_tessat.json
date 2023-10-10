@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cms:raw_tessat_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cms:raw_tessat"
+  }
+}

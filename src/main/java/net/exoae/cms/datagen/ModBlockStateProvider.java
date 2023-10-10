@@ -1,5 +1,6 @@
 package net.exoae.cms.datagen;
 
+import net.exoae.cms.BlockModify.FlammableBlock;
 import net.exoae.cms.CMS;
 import net.exoae.cms.init.BlockInit;
 import net.minecraft.data.PackOutput;

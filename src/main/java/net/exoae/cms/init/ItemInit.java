@@ -11,12 +11,12 @@ public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CMS.MOD_ID);
 
 	//TESSATITEMS
-	public static final RegistryObject<Item> TESSAT_INGOT = ITEMS.register("tessat_ingot", () -> new Item(
-			new Item.Properties()));
-	public static final RegistryObject<Item> RAW_TESSAT = ITEMS.register("raw_tessat", () -> new Item(
-			new Item.Properties()));
-	public static final RegistryObject<Item> TESSAT_NUGGET = ITEMS.register("tessat_nugget", () -> new Item(
-			new Item.Properties()));
+	public static final RegistryObject<Item> TESSAT_INGOT = ITEMS.register("tessat_ingot",
+			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> RAW_TESSAT = ITEMS.register("raw_tessat",
+			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> TESSAT_NUGGET = ITEMS.register("tessat_nugget",
+			() -> new Item(new Item.Properties()));
 	public static final RegistryObject<Item> TESSAT_FRAME = ITEMS.register("tessat_frame",
 			() -> new Item(new Item.Properties()));
 

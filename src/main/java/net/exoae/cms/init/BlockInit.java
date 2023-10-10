@@ -1,5 +1,6 @@
 package net.exoae.cms.init;
 
+import net.exoae.cms.BlockModify.FlammableBlock;
 import net.exoae.cms.CMS;
 import java.util.function.Supplier;
 
@@ -42,45 +43,45 @@ public class BlockInit {
 
 	//CRATES
 
-	public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate", () -> new Block
-			(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+	public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate",
+			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
-	public static final RegistryObject<Block> SPRUCE_CRATE = registerBlock("spruce_crate", () -> new Block
+	public static final RegistryObject<Block> SPRUCE_CRATE = registerBlock("spruce_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
 
-	public static final RegistryObject<Block> BIRCH_CRATE = registerBlock("birch_crate", () -> new Block
+	public static final RegistryObject<Block> BIRCH_CRATE = registerBlock("birch_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
-	public static final RegistryObject<Block> JUNGLE_CRATE = registerBlock("jungle_crate", () -> new Block
+	public static final RegistryObject<Block> JUNGLE_CRATE = registerBlock("jungle_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
 
-	public static final RegistryObject<Block> ACACIA_CRATE = registerBlock("acacia_crate", () -> new Block
+	public static final RegistryObject<Block> ACACIA_CRATE = registerBlock("acacia_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 	
-	public static final RegistryObject<Block> DARK_OAK_CRATE = registerBlock("dark_oak_crate", () -> new Block
+	public static final RegistryObject<Block> DARK_OAK_CRATE = registerBlock("dark_oak_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 
-	public static final RegistryObject<Block> MANGROVE_CRATE = registerBlock("mangrove_crate", () -> new Block
+	public static final RegistryObject<Block> MANGROVE_CRATE = registerBlock("mangrove_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
-	public static final RegistryObject<Block> CHERRY_CRATE = registerBlock("cherry_crate", () -> new Block
+	public static final RegistryObject<Block> CHERRY_CRATE = registerBlock("cherry_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 
-	public static final RegistryObject<Block> BAMBOO_CRATE = registerBlock("bamboo_crate", () -> new Block
+	public static final RegistryObject<Block> BAMBOO_CRATE = registerBlock("bamboo_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS)));
 
-	public static final RegistryObject<Block> CRIMSON_CRATE = registerBlock("crimson_crate", () -> new Block
+	public static final RegistryObject<Block> CRIMSON_CRATE = registerBlock("crimson_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 
-	public static final RegistryObject<Block> WARPED_CRATE = registerBlock("warped_crate", () -> new Block
+	public static final RegistryObject<Block> WARPED_CRATE = registerBlock("warped_crate", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
 
-	public static final RegistryObject<Block> PALE_CRATE = registerBlock("pale_crate", () -> new Block
-			(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+	public static final RegistryObject<Block> PALE_CRATE = registerBlock("pale_crate", () -> new FlammableBlock
+			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
 	//PLANKS
 
-	public static final RegistryObject<Block> PALE_PLANKS = registerBlock("pale_planks", () -> new Block
+	public static final RegistryObject<Block> PALE_PLANKS = registerBlock("pale_planks", () -> new FlammableBlock
 			(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
 	//END

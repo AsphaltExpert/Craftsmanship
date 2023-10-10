@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cms:tessat_ingot"
+    }
+  },
+  "pattern": [
+    "I ",
+    " I"
+  ],
+  "result": {
+    "item": "cms:tessat_shears"
+  },
+  "show_notification": true
+}

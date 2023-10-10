@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "cms:tessat_ingot"
+    }
+  },
+  "pattern": [
+    "II",
+    " /",
+    " /"
+  ],
+  "result": {
+    "item": "cms:tessat_hoe"
+  },
+  "show_notification": true
+}
