@@ -4,6 +4,7 @@ import net.exoae.cms.CMS;
 import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.FishingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -30,7 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ItemInit.TESSAT_HOE);
 
         handheldItem(ItemInit.TESSAT_SHEARS);
-        handheldItem(ItemInit.TESSAT_FISHING_ROD);
+        //handheldItem(ItemInit.TESSAT_FISHING_ROD);
     }
 
 
@@ -42,6 +43,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(CMS.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldrod(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld_rod")).texture("layer0",
                 new ResourceLocation(CMS.MOD_ID,"item/" + item.getId().getPath()));
     }
 

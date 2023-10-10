@@ -416,14 +416,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
 
-                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_FISHING_ROD.get())
+                /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.TESSAT_FISHING_ROD.get())
                         .pattern("  /")
                         .pattern(" /S")
                         .pattern("/ S")
                         .define('S', Items.STRING)
                         .define('/', ItemInit.TESSAT_INGOT.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
-                        .save(pWriter);
+                        .save(pWriter);*/
             }
         }
     }

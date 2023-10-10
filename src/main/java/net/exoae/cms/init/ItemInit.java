@@ -34,8 +34,8 @@ public class ItemInit {
 			() -> new HoeItem(ToolTiersInit.TESSAT, 0,0, new Item.Properties()));
 	public static final RegistryObject<Item> TESSAT_SHEARS = ITEMS.register("tessat_shears",
 			() -> new ShearsItem(new Item.Properties().durability(476)));
-	public static final RegistryObject<Item> TESSAT_FISHING_ROD = ITEMS.register("tessat_fishing_rod",
-			() -> new FishingRodItem(new Item.Properties().durability(256)));
+	/*public static final RegistryObject<Item> TESSAT_FISHING_ROD = ITEMS.register("tessat_fishing_rod",
+			() -> new FishingRodItem(new Item.Properties().durability(256).requiredFeatures()));*/
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
