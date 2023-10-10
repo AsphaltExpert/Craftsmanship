@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cms:tessat_nugget"
+        "recipe": "cms:raw_tessat"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "cms:tessat_nugget"
+      "cms:raw_tessat"
     ]
   },
   "sends_telemetry_event": false

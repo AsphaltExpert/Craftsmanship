@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_tessat_ingot": {
+    "has_crafting_table": {
       "conditions": {
         "items": [
           {
             "items": [
-              "cms:tessat_ingot"
+              "minecraft:crafting_table"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_tessat_ingot",
+      "has_crafting_table",
       "has_the_recipe"
     ]
   ],
