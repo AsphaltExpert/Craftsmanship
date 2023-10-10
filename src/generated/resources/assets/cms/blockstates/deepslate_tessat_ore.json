@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cms:block/deepslate_tessat_ore"
+    }
+  }
+}

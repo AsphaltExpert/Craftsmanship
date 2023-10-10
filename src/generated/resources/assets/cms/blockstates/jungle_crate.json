@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cms:block/jungle_crate"
+    }
+  }
+}

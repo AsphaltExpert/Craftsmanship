@@ -1,0 +1,19 @@
+// 1.20.1	2023-10-10T18:27:37.6995308	Loot Tables
+408774eadb8fcd503e483146d2275bfa0bddafde data/cms/loot_tables/blocks/acacia_crate.json
+0697cb76089f875afa34cce70293021b8c1eb27a data/cms/loot_tables/blocks/bamboo_crate.json
+6ee0ccb38189b14a78e0b8ed9456949401ba8e6b data/cms/loot_tables/blocks/birch_crate.json
+4806a36b9bdeb07629a457b7d6a99cd7c3613469 data/cms/loot_tables/blocks/cherry_crate.json
+748d83c209547435f96df5c427bd9070716cfaa4 data/cms/loot_tables/blocks/crimson_crate.json
+be287f3bdbb5d449b211bd65a3cc92c7e9678a46 data/cms/loot_tables/blocks/dark_oak_crate.json
+21a145fe071f018e12dc0ba649ecaa68c4330eb6 data/cms/loot_tables/blocks/deepslate_tessat_ore.json
+602eee2d1bb21e6ac57212a11dec9561970b4e0b data/cms/loot_tables/blocks/jungle_crate.json
+f2b9a1bfc498644730138d27cdf574c181ee8d70 data/cms/loot_tables/blocks/mangrove_crate.json
+530464b4ed443793c6cd5649e4d56881faf48f06 data/cms/loot_tables/blocks/oak_crate.json
+4d2ee7ad20d10878778ae34372dbe6e692c65edd data/cms/loot_tables/blocks/pale_crate.json
+7b37d0c0fe3149ea0103ca55c792f86308c7bd15 data/cms/loot_tables/blocks/pale_planks.json
+e71fe498773e76379d3dd64bc01b1324648132c7 data/cms/loot_tables/blocks/raw_tessat_block.json
+3afba2a3d3d988c9200d1088534fb73073d6c280 data/cms/loot_tables/blocks/spruce_crate.json
+702f0eeb99d718215ed77103d87b11196ec30f1c data/cms/loot_tables/blocks/tessat_block.json
+e3c8b6e66abb8b74b6890fab51236800f5d46b84 data/cms/loot_tables/blocks/tessat_bricks.json
+cede63e95e47b59f54d0f75e50ef18d9cc19d7a4 data/cms/loot_tables/blocks/tessat_ore.json
+aa6e99e2241b429a9c6d7cf915db95635b69efa4 data/cms/loot_tables/blocks/warped_crate.json
