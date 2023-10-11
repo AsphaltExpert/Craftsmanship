@@ -5,14 +5,20 @@ import net.exoae.cms.init.BlockInit;
 import net.exoae.cms.init.ItemInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.nbt.Tag;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.common.data.BlockTagsProvider;
 
+import javax.swing.text.html.HTML;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -214,6 +220,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                     .save(pWriter);
         }
+            //PLANKS
+            {
+                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.PALE_PLANKS.get(), 8)
+                        .pattern("PPP")
+                        .pattern("PLP")
+                        .pattern("PPP")
+                        .define('P', ItemTags.PLANKS)
+                        .define('L', ItemInit.TESSAT_FRAME.get())
+                        .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                        .save(pWriter);
+            }
         //COLORED PLANKS
         {
             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.WHITE_PLANKS.get(), 8)
@@ -453,8 +470,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //   ||
         //   \/
         {
-        //TESSAT
-        {
+            //TESSAT
+            {
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 9)
                         .requires(BlockInit.TESSAT_BLOCK.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
@@ -467,6 +484,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.RAW_TESSAT.get(), 9)
                         .requires(BlockInit.RAW_TESSAT_BLOCK.get())
+                        .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                        .save(pWriter);
+            }
+            //LUMINA
+            {
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.LUMINA.get(), 9)
+                        .requires(BlockInit.TESSAT_BLOCK.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
             }
