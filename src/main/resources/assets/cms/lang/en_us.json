@@ -8,6 +8,7 @@
   "block.cms.raw_tessat_block": "Rohtessatblock",
 
   "block.cms.lumina_block": "Luminblock",
+  "block.cms.lumina_lamp":"Luminlampe",
   "block.cms.lumina_ore": "Luminerz",
   "block.cms.deepslate_lumin_ore": "Tiefenschieferluminerz",
 
