@@ -23,6 +23,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ItemInit.TESSAT_INGOT);
         simpleItem(ItemInit.TESSAT_NUGGET);
         simpleItem(ItemInit.TESSAT_FRAME);
+        simpleItem(ItemInit.LUMINA);
 
         handheldItem(ItemInit.TESSAT_SWORD);
         handheldItem(ItemInit.TESSAT_PICKAXE);

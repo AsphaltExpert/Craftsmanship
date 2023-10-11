@@ -28,12 +28,10 @@ public class MaterialTab {
                         pOutput.accept(BlockInit.DEEPSLATE_TESSAT_ORE.get());
                         pOutput.accept(BlockInit.RAW_TESSAT_BLOCK.get());
 
-                        //LUMINBLOCK
-                        pOutput.accept(BlockInit.LUMIN_BLOCK.get());
-                        pOutput.accept(BlockInit.LUMIN_BRICKS.get());
-                        pOutput.accept(BlockInit.LUMIN_ORE.get());
-                        pOutput.accept(BlockInit.DEEPSLATE_LUMIN_ORE.get());
-                        pOutput.accept(BlockInit.RAW_LUMIN_BLOCK.get());
+                        //LUMINABLOCK
+                        pOutput.accept(BlockInit.LUMINA_BLOCK.get());
+                        pOutput.accept(BlockInit.LUMINA_ORE.get());
+                        pOutput.accept(BlockInit.DEEPSLATE_LUMINA_ORE.get());
 
                         //CRATES
                         pOutput.accept(BlockInit.OAK_CRATE.get());
@@ -75,6 +73,9 @@ public class MaterialTab {
                         pOutput.accept(ItemInit.RAW_TESSAT.get());
                         pOutput.accept(ItemInit.TESSAT_NUGGET.get());
                         pOutput.accept(ItemInit.TESSAT_FRAME.get());
+
+                        //LUMINAITEM
+                        pOutput.accept(ItemInit.LUMINA.get());
 
                         //TESSATTOOLS
                         pOutput.accept(ItemInit.TESSAT_SWORD.get());

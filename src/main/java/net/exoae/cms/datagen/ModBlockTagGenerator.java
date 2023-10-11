@@ -26,7 +26,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         BlockInit.TESSAT_BRICKS.get(),
                         BlockInit.TESSAT_ORE.get(),
                         BlockInit.DEEPSLATE_TESSAT_ORE.get(),
-                        BlockInit.RAW_TESSAT_BLOCK.get());
+                        BlockInit.RAW_TESSAT_BLOCK.get(),
+                        BlockInit.LUMINA_BLOCK.get(),
+                        BlockInit.LUMINA_ORE.get(),
+                        BlockInit.DEEPSLATE_LUMINA_ORE.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(BlockInit.OAK_CRATE.get(),
@@ -61,9 +64,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(BlockInit.TESSAT_BLOCK.get(),
+                        BlockInit.TESSAT_BRICKS.get(),
                         BlockInit.TESSAT_ORE.get(),
                         BlockInit.DEEPSLATE_TESSAT_ORE.get(),
-                        BlockInit.RAW_TESSAT_BLOCK.get());
+                        BlockInit.RAW_TESSAT_BLOCK.get(),
+                        BlockInit.LUMINA_BLOCK.get(),
+                        BlockInit.LUMINA_ORE.get(),
+                        BlockInit.DEEPSLATE_LUMINA_ORE.get());
 
         this.tag(ModTags.Blocks.NEEDS_TESSAT_TOOL)
                 /*.add(BlockInit.TESSAT_BLOCK.get())*/;

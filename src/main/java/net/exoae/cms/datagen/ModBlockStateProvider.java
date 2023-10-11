@@ -24,6 +24,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         DropExperienceblockWithItem(BlockInit.DEEPSLATE_TESSAT_ORE);
         blockWithItem(BlockInit.RAW_TESSAT_BLOCK);
 
+        //LUMINABLOCK
+        blockWithItem(BlockInit.LUMINA_BLOCK);
+        DropExperienceblockWithItem(BlockInit.LUMINA_ORE);
+        DropExperienceblockWithItem(BlockInit.DEEPSLATE_LUMINA_ORE);
+
         //CRATES
         blockWithItem(BlockInit.OAK_CRATE);
         blockWithItem(BlockInit.SPRUCE_CRATE);

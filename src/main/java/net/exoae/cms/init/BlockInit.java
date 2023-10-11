@@ -42,20 +42,14 @@ public class BlockInit {
 			(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.METAL)));
 
 	//LUMIN
-	public static final RegistryObject<Block> LUMIN_BLOCK = registerBlock("lumin_block", () -> new Block
-			(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+	public static final RegistryObject<Block> LUMINA_BLOCK = registerBlock("lumina_block", () -> new Block
+			(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.GLASS).lightLevel((p_50874_) -> {return 15;})));
 
-	public static final RegistryObject<Block> LUMIN_BRICKS = registerBlock("lumin_bricks", () -> new Block
-			(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+	public static final RegistryObject<DropExperienceBlock> LUMINA_ORE = registerBlock("lumina_ore", () -> new DropExperienceBlock
+			(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).mapColor(MapColor.STONE).lightLevel(value -> 4), UniformInt.of(0,2)));
 
-	public static final RegistryObject<DropExperienceBlock> LUMIN_ORE = registerBlock("lumin_ore", () -> new DropExperienceBlock
-			(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).mapColor(MapColor.STONE), UniformInt.of(0,2)));
-
-	public static final RegistryObject<DropExperienceBlock> DEEPSLATE_LUMIN_ORE = registerBlock("deepslate_lumin_ore", () -> new DropExperienceBlock
-			(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).mapColor(MapColor.DEEPSLATE), UniformInt.of(0,2)));
-
-	public static final RegistryObject<Block> RAW_LUMIN_BLOCK = registerBlock("raw_lumin_block", () -> new Block
-			(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.METAL)));
+	public static final RegistryObject<DropExperienceBlock> DEEPSLATE_LUMINA_ORE = registerBlock("deepslate_lumina_ore", () -> new DropExperienceBlock
+			(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).mapColor(MapColor.DEEPSLATE).lightLevel(value -> 4), UniformInt.of(0,2)));
 
 	//CRATES
 

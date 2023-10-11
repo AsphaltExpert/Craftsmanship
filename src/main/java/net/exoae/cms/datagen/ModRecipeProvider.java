@@ -94,6 +94,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                     .save(pWriter);
             }
+            //LUMINABLOCK
+            {
+                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.LUMINA_BLOCK.get())
+                        .pattern("III")
+                        .pattern("III")
+                        .pattern("III")
+                        .define('I', ItemInit.LUMINA.get())
+                        .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                        .save(pWriter);
+            }
         //CRATES
         {
             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.OAK_CRATE.get(), 8)
