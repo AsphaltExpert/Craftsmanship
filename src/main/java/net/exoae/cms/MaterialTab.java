@@ -28,6 +28,13 @@ public class MaterialTab {
                         pOutput.accept(BlockInit.DEEPSLATE_TESSAT_ORE.get());
                         pOutput.accept(BlockInit.RAW_TESSAT_BLOCK.get());
 
+                        //LUMINBLOCK
+                        pOutput.accept(BlockInit.LUMIN_BLOCK.get());
+                        pOutput.accept(BlockInit.LUMIN_BRICKS.get());
+                        pOutput.accept(BlockInit.LUMIN_ORE.get());
+                        pOutput.accept(BlockInit.DEEPSLATE_LUMIN_ORE.get());
+                        pOutput.accept(BlockInit.RAW_LUMIN_BLOCK.get());
+
                         //CRATES
                         pOutput.accept(BlockInit.OAK_CRATE.get());
                         pOutput.accept(BlockInit.SPRUCE_CRATE.get());

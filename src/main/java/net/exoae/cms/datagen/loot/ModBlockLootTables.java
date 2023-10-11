@@ -34,6 +34,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(BlockInit.DEEPSLATE_TESSAT_ORE.get(),
                 block -> createTessatOreDrops(BlockInit.DEEPSLATE_TESSAT_ORE.get(), ItemInit.RAW_TESSAT.get()));
 
+        //LUMINBLOCK
+        this.dropSelf(BlockInit.LUMIN_BLOCK.get());
+        this.dropSelf(BlockInit.LUMIN_BRICKS.get());
+        this.dropSelf(BlockInit.RAW_LUMIN_BLOCK.get());
+
+        this.add(BlockInit.LUMIN_ORE.get(),
+                block -> createLuminOreDrops(BlockInit.LUMIN_ORE.get(), ItemInit.RAW_LUMIN.get()));
+        this.add(BlockInit.DEEPSLATE_LUMIN_ORE.get(),
+                block -> createLuminOreDrops(BlockInit.DEEPSLATE_LUMIN_ORE.get(), ItemInit.RAW_LUMIN.get()));
+
         //CRATES
         this.dropSelf(BlockInit.OAK_CRATE.get());
         this.dropSelf(BlockInit.SPRUCE_CRATE.get());
@@ -71,6 +81,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     }
 
     protected LootTable.Builder createTessatOreDrops(Block pBlock, Item item) {
+        return createSilkTouchDispatchTable(pBlock,
+                this.applyExplosionDecay(pBlock,
+                        LootItem.lootTableItem(item)
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 2.0F)))
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
+    }
+    protected LootTable.Builder createLuminOreDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)

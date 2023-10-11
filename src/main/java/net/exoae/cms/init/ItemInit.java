@@ -20,6 +20,16 @@ public class ItemInit {
 	public static final RegistryObject<Item> TESSAT_FRAME = ITEMS.register("tessat_frame",
 			() -> new Item(new Item.Properties()));
 
+	//LUMINITEMS
+	public static final RegistryObject<Item> LUMIN_INGOT = ITEMS.register("lumin_ingot",
+			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> RAW_LUMIN = ITEMS.register("raw_lumin",
+			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> LUMIN_NUGGET = ITEMS.register("lumin_nugget",
+			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> LUMIN_FRAME = ITEMS.register("lumin_frame",
+			() -> new Item(new Item.Properties()));
+
 
 	//TESSATTOOLS
 	public static final RegistryObject<Item> TESSAT_SWORD = ITEMS.register("tessat_sword",
