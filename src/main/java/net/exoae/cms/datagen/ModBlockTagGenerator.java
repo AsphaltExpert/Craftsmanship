@@ -28,6 +28,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         BlockInit.DEEPSLATE_TESSAT_ORE.get(),
                         BlockInit.RAW_TESSAT_BLOCK.get(),
                         BlockInit.LUMINA_BLOCK.get(),
+                        BlockInit.LUMINA_LAMP.get(),
                         BlockInit.LUMINA_ORE.get(),
                         BlockInit.DEEPSLATE_LUMINA_ORE.get());
 

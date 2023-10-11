@@ -36,6 +36,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         //LUMINABLOCK
         this.dropSelf(BlockInit.LUMINA_BLOCK.get());
+        this.dropSelf(BlockInit.LUMINA_LAMP.get());
 
         this.add(BlockInit.LUMINA_ORE.get(),
                 block -> createLUMINAOreDrops(BlockInit.LUMINA_ORE.get(), ItemInit.LUMINA.get()));

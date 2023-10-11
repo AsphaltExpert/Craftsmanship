@@ -26,6 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         //LUMINABLOCK
         blockWithItem(BlockInit.LUMINA_BLOCK);
+        blockWithItem(BlockInit.LUMINA_LAMP);
         DropExperienceblockWithItem(BlockInit.LUMINA_ORE);
         DropExperienceblockWithItem(BlockInit.DEEPSLATE_LUMINA_ORE);
 

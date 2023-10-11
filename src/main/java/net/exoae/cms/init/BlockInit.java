@@ -51,6 +51,9 @@ public class BlockInit {
 	public static final RegistryObject<DropExperienceBlock> DEEPSLATE_LUMINA_ORE = registerBlock("deepslate_lumina_ore", () -> new DropExperienceBlock
 			(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).mapColor(MapColor.DEEPSLATE).lightLevel(value -> 4), UniformInt.of(0,2)));
 
+	public static final RegistryObject<Block> LUMINA_LAMP = registerBlock("lumina_LAMP", () -> new Block
+			(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+
 	//CRATES
 
 	public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate",

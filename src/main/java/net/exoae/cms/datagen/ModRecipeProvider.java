@@ -103,10 +103,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             //LUMINABLOCK
             {
                 ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.LUMINA_BLOCK.get())
-                        .pattern("III")
-                        .pattern("III")
-                        .pattern("III")
-                        .define('I', ItemInit.LUMINA.get())
+                        .pattern("LLL")
+                        .pattern("LLL")
+                        .pattern("LLL")
+                        .define('L', ItemInit.LUMINA.get())
+                        .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                        .save(pWriter);
+
+                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.LUMINA_LAMP.get())
+                        .pattern("GGG")
+                        .pattern("GLG")
+                        .pattern("GGG")
+                        .define('L', ItemInit.LUMINA.get())
+                        .define('G', Items.GLASS)
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
             }

@@ -32,6 +32,7 @@ public class MaterialTab {
                         pOutput.accept(BlockInit.LUMINA_BLOCK.get());
                         pOutput.accept(BlockInit.LUMINA_ORE.get());
                         pOutput.accept(BlockInit.DEEPSLATE_LUMINA_ORE.get());
+                        pOutput.accept(BlockInit.LUMINA_LAMP.get());
 
                         //CRATES
                         pOutput.accept(BlockInit.OAK_CRATE.get());
