@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 
 import javax.annotation.Nullable;
@@ -34,7 +35,7 @@ public class FlammableFuelBlock {
     public class FuelBlock extends BlockItem {
         private int burnTime = 0;
 
-        public FuelBlock(Properties pProperties, int burnTime) {
+        public FuelBlock(BlockBehaviour.Properties pProperties, int burnTime) {
             super(pProperties);
             this.burnTime = burnTime;
         }
