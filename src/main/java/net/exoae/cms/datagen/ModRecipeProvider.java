@@ -85,6 +85,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('T', ItemInit.RAW_TESSAT.get())
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
+            ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.TESSAT_BRICKS.get(), 8)
+                    .pattern("BBB")
+                    .pattern("BIB")
+                    .pattern("BBB")
+                    .define('I', ItemInit.TESSAT_INGOT.get())
+                    .define('B', Blocks.STONE_BRICKS)
+                    .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                    .save(pWriter);
             }
         //CRATES
         {
