@@ -1,8 +1,12 @@
 {
   "values": [
     "cms:tessat_block",
+    "cms:tessat_bricks",
     "cms:tessat_ore",
     "cms:deepslate_tessat_ore",
-    "cms:raw_tessat_block"
+    "cms:raw_tessat_block",
+    "cms:lumina_block",
+    "cms:lumina_ore",
+    "cms:deepslate_lumina_ore"
   ]
 }

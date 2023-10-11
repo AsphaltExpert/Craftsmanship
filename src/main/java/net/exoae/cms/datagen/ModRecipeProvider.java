@@ -78,12 +78,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
 
-            ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.TESSAT_BRICKS.get())
-                .pattern("NN")
-                .pattern("NN")
-                .define('N', ItemInit.TESSAT_NUGGET.get())
-                .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
-                .save(pWriter);
             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.RAW_TESSAT_BLOCK.get())
                 .pattern("TTT")
                 .pattern("TTT")
@@ -91,6 +85,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('T', ItemInit.RAW_TESSAT.get())
                 .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                 .save(pWriter);
+
             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.TESSAT_BRICKS.get(), 8)
                     .pattern("BBB")
                     .pattern("BIB")

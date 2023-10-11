@@ -2,21 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
-      "item": "minecraft:stone_bricks"
+    "L": {
+      "item": "cms:tessat_frame"
     },
-    "I": {
-      "item": "cms:tessat_ingot"
+    "P": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "BBB",
-    "BIB",
-    "BBB"
+    "PPP",
+    "PLP",
+    "PPP"
   ],
   "result": {
     "count": 8,
-    "item": "cms:tessat_bricks"
+    "item": "cms:pale_planks"
   },
   "show_notification": true
 }
