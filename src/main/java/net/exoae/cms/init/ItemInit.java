@@ -1,6 +1,5 @@
 package net.exoae.cms.init;
 
-import net.exoae.cms.BlockModify.FuelBlock;
 import net.exoae.cms.BlockModify.FuelBlockItem;
 import net.exoae.cms.CMS;
 import net.minecraft.world.item.*;
@@ -14,7 +13,7 @@ public class ItemInit {
 
 
 	public static final RegistryObject<Item> OAK_CRATE = ITEMS.register("oka_crate",
-			() -> new FuelBlockItem(new Item.Properties()));
+			() -> new FuelBlockItem(new Item.Properties(), 0));
 
 	//TESSATITEMS
 	public static final RegistryObject<Item> TESSAT_INGOT = ITEMS.register("tessat_ingot",
