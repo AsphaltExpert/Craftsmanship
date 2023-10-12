@@ -16,7 +16,7 @@ public class ColoredBlocksTab {
         DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CMS.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> COLORED_TAB = CREATIVE_MODE_COLORED_TABS.register("ccolored_tab",
-            () -> CreativeModeTab.builder().icon( () -> new ItemStack(BlockInit.MAGENTA_PLANKS.get()))
+            () -> CreativeModeTab.builder().icon( () -> new ItemStack(BlockInit.RED_PLANKS.get()))
                     .title(Component.translatable("creativetab.ccolored_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {
