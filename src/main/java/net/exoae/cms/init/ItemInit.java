@@ -1,5 +1,7 @@
 package net.exoae.cms.init;
 
+import net.exoae.cms.BlockModify.FuelBlock;
+import net.exoae.cms.BlockModify.FuelBlockItem;
 import net.exoae.cms.CMS;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -9,6 +11,10 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CMS.MOD_ID);
+
+
+	public static final RegistryObject<Item> OAK_CRATE = ITEMS.register("oka_crate",
+			() -> new FuelBlockItem(new Item.Properties()));
 
 	//TESSATITEMS
 	public static final RegistryObject<Item> TESSAT_INGOT = ITEMS.register("tessat_ingot",

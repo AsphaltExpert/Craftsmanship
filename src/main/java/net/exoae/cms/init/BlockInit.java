@@ -56,7 +56,7 @@ public class BlockInit {
 
 	//CRATES
 
-	public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate",
+	public static final RegistryObject<Block> OAK_CRATE = BLOCKS.register("oak_crate",
 			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
 	public static final RegistryObject<Block> SPRUCE_CRATE = registerBlock("spruce_crate", () -> new FlammableBlock
