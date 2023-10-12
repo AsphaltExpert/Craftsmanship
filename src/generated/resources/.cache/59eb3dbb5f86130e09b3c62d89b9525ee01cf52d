@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-12T21:55:47.6812687	Loot Tables
+// 1.20.1	2023-10-12T22:31:19.2854778	Loot Tables
 408774eadb8fcd503e483146d2275bfa0bddafde data/cms/loot_tables/blocks/acacia_crate.json
 0697cb76089f875afa34cce70293021b8c1eb27a data/cms/loot_tables/blocks/bamboo_crate.json
 6ee0ccb38189b14a78e0b8ed9456949401ba8e6b data/cms/loot_tables/blocks/birch_crate.json
@@ -25,7 +25,7 @@ f2b9a1bfc498644730138d27cdf574c181ee8d70 data/cms/loot_tables/blocks/mangrove_cr
 530464b4ed443793c6cd5649e4d56881faf48f06 data/cms/loot_tables/blocks/oak_crate.json
 816d3fb81cfcb33988b8e4ae26b1f325251f07e4 data/cms/loot_tables/blocks/orange_planks.json
 4d2ee7ad20d10878778ae34372dbe6e692c65edd data/cms/loot_tables/blocks/pale_crate.json
-4f583b80f6766736fd3710b52aaceda249b404aa data/cms/loot_tables/blocks/pale_fence.json
+848a6b3488cc8999d13d2ee733fd75a06651e6ee data/cms/loot_tables/blocks/pale_fence.json
 7b37d0c0fe3149ea0103ca55c792f86308c7bd15 data/cms/loot_tables/blocks/pale_planks.json
 7c8f5cd19bef43cc4b1f88100e02512985561f9b data/cms/loot_tables/blocks/pink_planks.json
 25082a5cce73cfaf554f3f04aa228df0e64c3608 data/cms/loot_tables/blocks/purple_planks.json

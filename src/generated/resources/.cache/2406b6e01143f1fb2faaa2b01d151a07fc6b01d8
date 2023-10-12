@@ -1,6 +1,7 @@
-// 1.20.1	2023-10-12T21:55:47.682841	Tags for minecraft:block mod id cms
+// 1.20.1	2023-10-12T22:42:12.1967134	Tags for minecraft:block mod id cms
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/cms/tags/blocks/needs_tessat_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+0fdd542d822d30b684ab1b43e1e6009187b7fd85 data/minecraft/tags/blocks/fences.json
 ea240aee04166ef97786cfcdb067d46f67bca952 data/minecraft/tags/blocks/mineable/axe.json
 2d434b14d20426971184260ecc85f0d42a618eda data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json

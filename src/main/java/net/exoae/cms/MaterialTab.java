@@ -12,10 +12,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 public class MaterialTab {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_MATERIAL_TABS =
         DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CMS.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_TABS.register("material_tab",
+    public static final RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_MATERIAL_TABS.register("material_tab",
             () -> CreativeModeTab.builder().icon( () -> new ItemStack(ItemInit.TESSAT_INGOT.get()))
                     .title(Component.translatable("creativetab.material_tab"))
                     .displayItems((pParameters, pOutput) ->
@@ -83,7 +83,7 @@ public class MaterialTab {
                     }
                     ).build());
 
-    public static void register(IEventBus eventBus) {
-        CREATIVE_MODE_TABS.register(eventBus);
+    public static void register(IEventBus meventBus) {
+        CREATIVE_MODE_MATERIAL_TABS.register(meventBus);
     }
 }

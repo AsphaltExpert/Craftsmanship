@@ -86,5 +86,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 /*.add(BlockInit.TESSAT_BLOCK.get())*/;
 
+        this.tag(BlockTags.FENCES)
+                .add(BlockInit.PALE_FENCE.get());
+
     }
 }

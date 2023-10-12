@@ -6,6 +6,7 @@ import net.exoae.cms.init.BlockInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.FenceBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
@@ -48,7 +49,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(BlockInit.PALE_PLANKS);
 
         //NON-BLOCK BLOCKS
-        blockWithItem(BlockInit.PALE_FENCE);
+        fenceBlock(((FenceBlock) BlockInit.PALE_FENCE.get()), blockTexture(BlockInit.PALE_PLANKS.get()));
 
         //COLORED PLANKS
         blockWithItem(BlockInit.WHITE_PLANKS);

@@ -25,6 +25,7 @@ public class CMS {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MaterialTab.register(modEventBus);
+		ToolTab.register(modEventBus);
 
 		ItemInit.register(modEventBus);
 		BlockInit.register(modEventBus);

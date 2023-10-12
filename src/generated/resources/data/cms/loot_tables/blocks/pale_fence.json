@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "cms:pale_fence"
         }
       ],
       "rolls": 1.0

@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-12T21:55:47.682841	Recipes
+// 1.20.1	2023-10-12T22:59:47.8682474	Recipes
 8f8088db790e82243d9c7c05de732125e52bbcab data/cms/advancements/recipes/misc/acacia_crate.json
 306bd7e07534cec4ad3e403b87bbb7d59c214554 data/cms/advancements/recipes/misc/bamboo_crate.json
 54504c981ca6f6e1f119cafb1722e4e37e23884f data/cms/advancements/recipes/misc/birch_crate.json
@@ -33,6 +33,7 @@ bc262a964142ca3dd1161ccb9698a8a8454ce991 data/cms/advancements/recipes/misc/lumi
 e6a040539ed763cd69d746bd722f91a3b470af39 data/cms/advancements/recipes/misc/oak_crate.json
 482e84d9fb0d33db79daff2721f45302494d89b2 data/cms/advancements/recipes/misc/orange_planks.json
 01fa4579dd7d32f9ec9eb92b2d53a16e41571a1e data/cms/advancements/recipes/misc/pale_crate.json
+bc4cebdf803cff16e999b5c3209877c877585ff8 data/cms/advancements/recipes/misc/pale_fence.json
 350c77bb5aebb3c3eb9e186a05fcf1d244053e71 data/cms/advancements/recipes/misc/pale_planks.json
 f75a0642e8045f250111e48c3f72c1ff0d0c4438 data/cms/advancements/recipes/misc/pink_planks.json
 0aab34243ce5082a59d85d3d8b54d0f7e9552608 data/cms/advancements/recipes/misc/purple_planks.json
@@ -95,7 +96,8 @@ ba60a50d341fcf0e0f9ebcc68436df0b4fbe38c2 data/cms/recipes/magenta_planks.json
 900c76e93036a0e0608daa2f7ce6bbbc085afe83 data/cms/recipes/oak_crate.json
 75d75a1c53b5e0690056dee29b67670c75e250aa data/cms/recipes/orange_planks.json
 f3e8df598f1291203c20310a464fb51c84e9cacf data/cms/recipes/pale_crate.json
-07c09aa0a6a0aa7189e9df59babdb624e5316a2b data/cms/recipes/pale_planks.json
+dd95527516d9867f3cd9dae1649502f77c97bf22 data/cms/recipes/pale_fence.json
+8a7a1673fe41e6db3e92a70bc0050fc5360d5837 data/cms/recipes/pale_planks.json
 59f328ef9aac1a229c53532aaa057d0a559d95d5 data/cms/recipes/pink_planks.json
 46e4a88856e8357c51d67e9773d1c600df2b4946 data/cms/recipes/purple_planks.json
 4825e3aab17bbe23499d246da651f20278e905dd data/cms/recipes/raw_tessat.json
@@ -123,9 +125,7 @@ f0a9cfa6c4c0923b01da6f3b227b5ddd88760856 data/cms/recipes/tessat_shovel.json
 af58a5b5b35015ed93a7d30f8cc8066113ad0daa data/cms/recipes/warped_crate.json
 f345c31c3cd5482259dfdf44999977e8814613f1 data/cms/recipes/white_planks.json
 e4211b2ff394da86c9f31d2a50842590a9db412e data/cms/recipes/yellow_planks.json
-70ec8772af22f16eda838e5839ce1c5f43f8e3a0 data/minecraft/advancements/recipes/misc/air.json
 3b971fb82046555406e997634d69aa31f5949531 data/minecraft/advancements/recipes/misc/b_tessat_ingot.json
 f7d8fecdc5fb9c863aced3a7fc958e5fc181e07b data/minecraft/advancements/recipes/misc/n_tessat_ingot.json
-e99edd335286df2f960d397055b15d08eecd0d31 data/minecraft/recipes/air.json
 c3c844098f0f066e13be36426546b8ae8bbc0393 data/minecraft/recipes/b_tessat_ingot.json
 f6078a18df2b1af495436e6cb25e411fd352a8f1 data/minecraft/recipes/n_tessat_ingot.json

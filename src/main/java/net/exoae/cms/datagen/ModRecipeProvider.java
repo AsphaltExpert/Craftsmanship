@@ -239,7 +239,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .pattern("PLP")
                         .pattern("PPP")
                         .define('P', ItemTags.PLANKS)
-                        .define('L', ItemInit.TESSAT_FRAME.get())
+                        .define('L', ItemInit.LUMINA.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
             }
