@@ -1,6 +1,8 @@
 {
   "creativetab.material_tab": "Materialien",
   "creativetab.tool_tab": "Werkzeuge",
+  "creativetab.frame_tab": "Rahmenblöcke",
+  "creativetab.colored_tab": "Farbige Blöcke",
 
   "block.cms.tessat_block": "Tessatblock",
   "block.cms.tessat_bricks": "Tessatziegel",

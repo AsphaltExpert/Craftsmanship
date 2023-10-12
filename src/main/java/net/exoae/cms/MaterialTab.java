@@ -34,43 +34,11 @@ public class MaterialTab {
                         pOutput.accept(BlockInit.DEEPSLATE_LUMINA_ORE.get());
                         pOutput.accept(BlockInit.LUMINA_LAMP.get());
 
-                        //CRATES
-                        pOutput.accept(BlockInit.OAK_CRATE.get());
-                        pOutput.accept(BlockInit.SPRUCE_CRATE.get());
-                        pOutput.accept(BlockInit.BIRCH_CRATE.get());
-                        pOutput.accept(BlockInit.JUNGLE_CRATE.get());
-                        pOutput.accept(BlockInit.ACACIA_CRATE.get());
-                        pOutput.accept(BlockInit.DARK_OAK_CRATE.get());
-                        pOutput.accept(BlockInit.MANGROVE_CRATE.get());
-                        pOutput.accept(BlockInit.CHERRY_CRATE.get());
-                        pOutput.accept(BlockInit.BAMBOO_CRATE.get());
-                        pOutput.accept(BlockInit.CRIMSON_CRATE.get());
-                        pOutput.accept(BlockInit.WARPED_CRATE.get());
-                        pOutput.accept(BlockInit.PALE_CRATE.get());
-
                         //PLANKS
                         pOutput.accept(BlockInit.PALE_PLANKS.get());
 
                         //NON-BLOCK BLOCKS
                         pOutput.accept(BlockInit.PALE_FENCE.get());
-
-                        //COLORED PLANKS
-                        pOutput.accept(BlockInit.WHITE_PLANKS.get());
-                        pOutput.accept(BlockInit.LIGHT_GRAY_PLANKS.get());
-                        pOutput.accept(BlockInit.GRAY_PLANKS.get());
-                        pOutput.accept(BlockInit.BLACK_PLANKS.get());
-                        pOutput.accept(BlockInit.BROWN_PLANKS.get());
-                        pOutput.accept(BlockInit.RED_PLANKS.get());
-                        pOutput.accept(BlockInit.ORANGE_PLANKS.get());
-                        pOutput.accept(BlockInit.YELLOW_PLANKS.get());
-                        pOutput.accept(BlockInit.LIME_PLANKS.get());
-                        pOutput.accept(BlockInit.GREEN_PLANKS.get());
-                        pOutput.accept(BlockInit.CYAN_PLANKS.get());
-                        pOutput.accept(BlockInit.LIGHT_BLUE_PLANKS.get());
-                        pOutput.accept(BlockInit.BLUE_PLANKS.get());
-                        pOutput.accept(BlockInit.PURPLE_PLANKS.get());
-                        pOutput.accept(BlockInit.MAGENTA_PLANKS.get());
-                        pOutput.accept(BlockInit.PINK_PLANKS.get());
 
                         //TESSATITEM
                         pOutput.accept(ItemInit.TESSAT_INGOT.get());
