@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-12T20:14:34.5579636	Recipes
+// 1.20.1	2023-10-12T21:22:47.4341386	Recipes
 8f8088db790e82243d9c7c05de732125e52bbcab data/cms/advancements/recipes/misc/acacia_crate.json
 306bd7e07534cec4ad3e403b87bbb7d59c214554 data/cms/advancements/recipes/misc/bamboo_crate.json
 54504c981ca6f6e1f119cafb1722e4e37e23884f data/cms/advancements/recipes/misc/birch_crate.json
@@ -23,6 +23,10 @@ e8a6df199e002415010971e7f1a88f3175e6fcf7 data/cms/advancements/recipes/misc/ligh
 07ab2b57735d4c9455be8e06cab226da88841600 data/cms/advancements/recipes/misc/lime_planks.json
 ba6c18e99618a944ec92f2c2bd93a193a8a985ae data/cms/advancements/recipes/misc/lumina.json
 c7de31770f5883554a60118fcd52eee8623f3e3b data/cms/advancements/recipes/misc/lumina_block.json
+be88821f4d50c033417d252b448ef718e7c9bfac data/cms/advancements/recipes/misc/lumina_from_blasting_deepslate_lumina_ore.json
+636c7d5fd42d6daf7aff973af1074987dc22710c data/cms/advancements/recipes/misc/lumina_from_blasting_lumina_ore.json
+bc262a964142ca3dd1161ccb9698a8a8454ce991 data/cms/advancements/recipes/misc/lumina_from_smelting_deepslate_lumina_ore.json
+66bf96813f451963b1bd1c3aff3ce183699e76f4 data/cms/advancements/recipes/misc/lumina_from_smelting_lumina_ore.json
 6eae35ad4fe11e6c2882cffaf9505c0962c3d03e data/cms/advancements/recipes/misc/lumina_lamp.json
 2d7e95bcd803b40a50aab2054798871b14a2d9d1 data/cms/advancements/recipes/misc/magenta_planks.json
 8cb5946e47dd994fb05538b10a42da65928514f3 data/cms/advancements/recipes/misc/mangrove_crate.json
@@ -79,8 +83,12 @@ cd888b8a54b5000572de84f53b0fec685196ea11 data/cms/recipes/jungle_crate.json
 edbd788f82316a8b45baeb246a47c87f5968ae92 data/cms/recipes/light_blue_planks.json
 f8d2d5a9a15e7dcab41f92461cd0a2be936db207 data/cms/recipes/light_gray_planks.json
 a3ae063f6ac72821404e7daf7d5aba839a2dbff0 data/cms/recipes/lime_planks.json
-2438fc6bdfaee3cf9bf192de039b81cfb69629b2 data/cms/recipes/lumina.json
+5cf5538555ddbc8e75ba2180f32bd94a339ae72f data/cms/recipes/lumina.json
 8c7b871ebe1a6ab63784e537c3bccfbae813588e data/cms/recipes/lumina_block.json
+1b1438d80283cee59ae4d4ec2e32df3497f95cf2 data/cms/recipes/lumina_from_blasting_deepslate_lumina_ore.json
+494a9f259ce2e9b6cb1362f6229d63c0225b0e1a data/cms/recipes/lumina_from_blasting_lumina_ore.json
+07208b0530aeae75bed391860dcd8fb11ea3fc21 data/cms/recipes/lumina_from_smelting_deepslate_lumina_ore.json
+25af4c5e190ea19bc1b2bf29972b2df26349ae45 data/cms/recipes/lumina_from_smelting_lumina_ore.json
 008d5b1ee8bfdcc965fa26de0a17f7172006dc85 data/cms/recipes/lumina_lamp.json
 ba60a50d341fcf0e0f9ebcc68436df0b4fbe38c2 data/cms/recipes/magenta_planks.json
 6ddba1626796c513457d19fc0fe0a1fb314a3879 data/cms/recipes/mangrove_crate.json

@@ -83,11 +83,11 @@ public class BlockInit {
 	public static final RegistryObject<Block> BAMBOO_CRATE = BLOCKS.register("bamboo_crate",
 			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS)));
 
-	public static final RegistryObject<Block> CRIMSON_CRATE = BLOCKS.register("crimson_crate",
-			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+	public static final RegistryObject<Block> CRIMSON_CRATE = registerBlock("crimson_crate",
+			() -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 
-	public static final RegistryObject<Block> WARPED_CRATE = BLOCKS.register("warped_crate",
-			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+	public static final RegistryObject<Block> WARPED_CRATE = registerBlock("warped_crate",
+			() -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
 
 	public static final RegistryObject<Block> PALE_CRATE = BLOCKS.register("pale_crate",
 			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));

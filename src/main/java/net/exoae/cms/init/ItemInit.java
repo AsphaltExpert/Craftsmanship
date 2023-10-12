@@ -64,10 +64,6 @@ public class ItemInit {
 			() -> new FuelBlockItem(new Item.Properties(), BlockInit.CHERRY_CRATE.get(), 300));
 	public static final RegistryObject<Item> BAMBOO_CRATE = ITEMS.register("bamboo_crate",
 			() -> new FuelBlockItem(new Item.Properties(), BlockInit.BAMBOO_CRATE.get(), 300));
-	public static final RegistryObject<Item> CRIMSON_CRATE = ITEMS.register("crimson_crate",
-			() -> new FuelBlockItem(new Item.Properties(), BlockInit.CRIMSON_CRATE.get(), 300));
-	public static final RegistryObject<Item> WARPED_CRATE = ITEMS.register("warped_crate",
-			() -> new FuelBlockItem(new Item.Properties(), BlockInit.WARPED_CRATE.get(), 300));
 	public static final RegistryObject<Item> PALE_CRATE = ITEMS.register("pale_crate",
 			() -> new FuelBlockItem(new Item.Properties(), BlockInit.PALE_CRATE.get(), 300));
 	public static final RegistryObject<Item> PALE_PLANKS = ITEMS.register("pale_planks",

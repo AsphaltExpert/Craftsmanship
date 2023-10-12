@@ -25,6 +25,8 @@ import java.util.function.Consumer;
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> TESSAT_SMELTABLES = List.of(ItemInit.RAW_TESSAT.get(),
             BlockInit.TESSAT_ORE.get(), BlockInit.DEEPSLATE_TESSAT_ORE.get());
+    private static final List<ItemLike> LUMINA_SMELTABLES = List.of(BlockInit.LUMINA_ORE.get(),
+            BlockInit.DEEPSLATE_LUMINA_ORE.get());
 
     private static final List<ItemLike> RAW_TESSAT_BLOCK = List.of(BlockInit.RAW_TESSAT_BLOCK.get());
     private static final List<ItemLike> RAW_COPPER_BLOCK = List.of(Blocks.RAW_COPPER_BLOCK);
@@ -46,6 +48,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 oreSmelting(pWriter, TESSAT_SMELTABLES, RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 0.2f, 200, "tessat");
 
                 oreBlasting(pWriter, TESSAT_SMELTABLES, RecipeCategory.MISC, ItemInit.TESSAT_INGOT.get(), 0.2f, 100, "tessat");
+            }
+        //TESSAT :TO: INGOT
+            {
+                oreSmelting(pWriter, LUMINA_SMELTABLES, RecipeCategory.MISC, ItemInit.LUMINA.get(), 0.2f, 200, "lumina");
+
+                oreBlasting(pWriter, LUMINA_SMELTABLES, RecipeCategory.MISC, ItemInit.LUMINA.get(), 0.2f, 100, "lumina");
             }
         //RAW ORE BLOCK :TO: BLOCK
             {
@@ -494,7 +502,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             //LUMINA
             {
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemInit.LUMINA.get(), 9)
-                        .requires(BlockInit.TESSAT_BLOCK.get())
+                        .requires(BlockInit.LUMINA_BLOCK.get())
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
             }
