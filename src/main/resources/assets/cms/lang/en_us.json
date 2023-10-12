@@ -1,5 +1,6 @@
 {
   "creativetab.material_tab": "Materialien",
+  "creativetab.tool_tab": "Werkzeuge",
 
   "block.cms.tessat_block": "Tessatblock",
   "block.cms.tessat_bricks": "Tessatziegel",
@@ -26,6 +27,8 @@
   "block.cms.pale_crate": "Bleichholzkiste",
 
   "block.cms.pale_planks": "Bleichholzbretter",
+
+  "block.cms.pale_fence": "Bleichholzzaun",
 
   "block.cms.white_planks": "Weiße Holzbretter",
   "block.cms.light_gray_planks": "Hellgraue Holzbretter",

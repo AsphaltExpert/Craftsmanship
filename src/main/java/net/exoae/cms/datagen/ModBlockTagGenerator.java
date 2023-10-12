@@ -46,6 +46,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         BlockInit.WARPED_CRATE.get(),
                         BlockInit.PALE_CRATE.get(),
                         BlockInit.PALE_PLANKS.get(),
+                        BlockInit.PALE_FENCE.get(),
                         BlockInit.WHITE_PLANKS.get(),
                         BlockInit.LIGHT_GRAY_PLANKS.get(),
                         BlockInit.GRAY_PLANKS.get(),

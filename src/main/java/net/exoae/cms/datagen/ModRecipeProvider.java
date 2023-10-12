@@ -243,6 +243,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
                         .save(pWriter);
             }
+            //NON-BLOCK BLOCKS
+            {
+                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.PALE_FENCE.get(), 3)
+                        .pattern("PSP")
+                        .pattern("PSP")
+                        .define('P', BlockInit.PALE_PLANKS.get())
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(Blocks.CRAFTING_TABLE), has(Blocks.CRAFTING_TABLE))
+                        .save(pWriter);
+            }
         //COLORED PLANKS
         {
             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockInit.WHITE_PLANKS.get(), 8)

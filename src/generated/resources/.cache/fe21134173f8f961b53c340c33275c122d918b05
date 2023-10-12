@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-11T19:12:26.2335006	Block States: cms
+// 1.20.1	2023-10-12T21:55:47.6758058	Block States: cms
 85e809f15d668a47bdad51ad948f359d1ef42978 assets/cms/blockstates/acacia_crate.json
 b76e52c352e23003dabb8680953c98ccde61db48 assets/cms/blockstates/bamboo_crate.json
 4af0a01a27e095234b23ffaf5ee6209eebb9ec35 assets/cms/blockstates/birch_crate.json
@@ -25,6 +25,7 @@ b80c4cdefb0c438bdca5a2f72a1de556840bcb16 assets/cms/blockstates/magenta_planks.j
 0ee440eeeaa25720026cde50cb25d14898f23935 assets/cms/blockstates/oak_crate.json
 e7b95b5b774a5d3d02d30b912fd8475e5ecc3fe3 assets/cms/blockstates/orange_planks.json
 7104a918d8f0b5b4a6dba6942859cd77a7e49d48 assets/cms/blockstates/pale_crate.json
+8c42000aece0ac43afbea9ba34d667485dba6066 assets/cms/blockstates/pale_fence.json
 225d82c571926c5d9062dac86aa2351987792221 assets/cms/blockstates/pale_planks.json
 bf308fa2b3d0a62b45f76ed62e1e23e34f6514d4 assets/cms/blockstates/pink_planks.json
 5ac803bc7e87107b7a6a042a804293369108adea assets/cms/blockstates/purple_planks.json
@@ -63,6 +64,7 @@ abccb69a8f9d1fedd4502492b8f54bbd7b9f02f3 assets/cms/models/block/magenta_planks.
 2f74b070e6f25e841c2dc3bee6d5dd6a65f8e732 assets/cms/models/block/oak_crate.json
 d3af7faa2bf0b8ad3b067e92669ce0a1acbb1902 assets/cms/models/block/orange_planks.json
 31e177a0c90e1f6c5e44819fe2c805a3b15fba2c assets/cms/models/block/pale_crate.json
+276a6a565b92fda72e6d53e02e21124cc17e7889 assets/cms/models/block/pale_fence.json
 55b3330ce8eaadc78ad114aa4ea4bae8ca11119c assets/cms/models/block/pale_planks.json
 6506ae70337a50c9454600e81e5c55b7b111db68 assets/cms/models/block/pink_planks.json
 6a948430e6c8853fab22c889a53a2700fd1c40a3 assets/cms/models/block/purple_planks.json
@@ -101,6 +103,7 @@ a2fce5bc6c8ebd31a747c13cb3fc500e0a61dca4 assets/cms/models/item/mangrove_crate.j
 5c5ca8539608002bc5d53f9b6e63eae7756ac99b assets/cms/models/item/oak_crate.json
 bd7d89620fa41704d85b71e89c86bcc8ba9a86da assets/cms/models/item/orange_planks.json
 81b0339b0635b4c65984849950bc2d61f5444887 assets/cms/models/item/pale_crate.json
+2ea56de879955e708ed681f26a0df449e5207922 assets/cms/models/item/pale_fence.json
 2ccc7521ad8dee752eb31dcc7f5d13450e660102 assets/cms/models/item/pale_planks.json
 074185035196f5c5893e45d870d36c51ac260fb3 assets/cms/models/item/pink_planks.json
 05b5051f00848832a569f6dc9c3ced3f6112f954 assets/cms/models/item/purple_planks.json

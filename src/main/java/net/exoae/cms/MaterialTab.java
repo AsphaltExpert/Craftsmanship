@@ -51,6 +51,9 @@ public class MaterialTab {
                         //PLANKS
                         pOutput.accept(BlockInit.PALE_PLANKS.get());
 
+                        //NON-BLOCK BLOCKS
+                        pOutput.accept(BlockInit.PALE_FENCE.get());
+
                         //COLORED PLANKS
                         pOutput.accept(BlockInit.WHITE_PLANKS.get());
                         pOutput.accept(BlockInit.LIGHT_GRAY_PLANKS.get());
@@ -77,15 +80,6 @@ public class MaterialTab {
 
                         //LUMINAITEM
                         pOutput.accept(ItemInit.LUMINA.get());
-
-                        //TESSATTOOLS
-                        pOutput.accept(ItemInit.TESSAT_SWORD.get());
-                        pOutput.accept(ItemInit.TESSAT_SHOVEL.get());
-                        pOutput.accept(ItemInit.TESSAT_PICKAXE.get());
-                        pOutput.accept(ItemInit.TESSAT_AXE.get());
-                        pOutput.accept(ItemInit.TESSAT_HOE.get());
-                        pOutput.accept(ItemInit.TESSAT_SHEARS.get());
-                        //pOutput.accept(ItemInit.TESSAT_FISHING_ROD.get());
                     }
                     ).build());
 

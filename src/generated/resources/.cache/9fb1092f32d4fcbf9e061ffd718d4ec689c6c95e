@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-12T21:22:47.4341386	Recipes
+// 1.20.1	2023-10-12T21:55:47.682841	Recipes
 8f8088db790e82243d9c7c05de732125e52bbcab data/cms/advancements/recipes/misc/acacia_crate.json
 306bd7e07534cec4ad3e403b87bbb7d59c214554 data/cms/advancements/recipes/misc/bamboo_crate.json
 54504c981ca6f6e1f119cafb1722e4e37e23884f data/cms/advancements/recipes/misc/birch_crate.json
@@ -123,7 +123,9 @@ f0a9cfa6c4c0923b01da6f3b227b5ddd88760856 data/cms/recipes/tessat_shovel.json
 af58a5b5b35015ed93a7d30f8cc8066113ad0daa data/cms/recipes/warped_crate.json
 f345c31c3cd5482259dfdf44999977e8814613f1 data/cms/recipes/white_planks.json
 e4211b2ff394da86c9f31d2a50842590a9db412e data/cms/recipes/yellow_planks.json
+70ec8772af22f16eda838e5839ce1c5f43f8e3a0 data/minecraft/advancements/recipes/misc/air.json
 3b971fb82046555406e997634d69aa31f5949531 data/minecraft/advancements/recipes/misc/b_tessat_ingot.json
 f7d8fecdc5fb9c863aced3a7fc958e5fc181e07b data/minecraft/advancements/recipes/misc/n_tessat_ingot.json
+e99edd335286df2f960d397055b15d08eecd0d31 data/minecraft/recipes/air.json
 c3c844098f0f066e13be36426546b8ae8bbc0393 data/minecraft/recipes/b_tessat_ingot.json
 f6078a18df2b1af495436e6cb25e411fd352a8f1 data/minecraft/recipes/n_tessat_ingot.json

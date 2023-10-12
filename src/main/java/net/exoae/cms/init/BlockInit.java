@@ -7,11 +7,8 @@ import java.util.function.Supplier;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -95,6 +92,10 @@ public class BlockInit {
 	//PLANKS
 	public static final RegistryObject<Block> PALE_PLANKS = BLOCKS.register("pale_planks",
 			() -> new FlammableBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+
+	//NON-BLOCK BLOCKS
+	public static final RegistryObject<Block> PALE_FENCE = BLOCKS.register("pale_fence",
+			() -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_FENCE)));
 
 	//COLORED PLANKS
 	public static final RegistryObject<Block> WHITE_PLANKS = BLOCKS.register("white_planks",
