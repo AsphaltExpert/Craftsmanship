@@ -11,9 +11,9 @@ import javax.annotation.Nullable;
 public class FuelBlockItem extends BlockItem {
     private int burnTime = 0;
 
-        public FuelBlockItem(Item.Properties pProperties, int burnTime) {
-            super(Block, pProperties);
-            this.burnTime = burnTime;
+            public FuelBlockItem(Item.Properties _properties, Block _block, int _burnTime) {
+            super(_block, _properties);
+            this.burnTime = _burnTime;
         }
         @Override
         public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
