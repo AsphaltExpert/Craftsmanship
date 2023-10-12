@@ -15,9 +15,9 @@ public class FrameBlocksTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_FRAME_TABS =
         DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CMS.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> FRAME_TAB = CREATIVE_MODE_FRAME_TABS.register("frame_tab",
-            () -> CreativeModeTab.builder().icon( () -> new ItemStack(ItemInit.TESSAT_FRAME.get()))
-                    .title(Component.translatable("creativetab.frame_tab"))
+    public static final RegistryObject<CreativeModeTab> FRAME_TAB = CREATIVE_MODE_FRAME_TABS.register("bframe_tab",
+            () -> CreativeModeTab.builder().icon( () -> new ItemStack(BlockInit.OAK_CRATE.get()))
+                    .title(Component.translatable("creativetab.bframe_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {
                         //TESSATITEM

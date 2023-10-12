@@ -15,9 +15,9 @@ public class ToolTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TOOL_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CMS.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TOOL_TAB = CREATIVE_MODE_TOOL_TABS.register("tool_tab",
+    public static final RegistryObject<CreativeModeTab> TOOL_TAB = CREATIVE_MODE_TOOL_TABS.register("dtool_tab",
             () -> CreativeModeTab.builder().icon( () -> new ItemStack(ItemInit.TESSAT_PICKAXE.get()))
-                    .title(Component.translatable("creativetab.tool_tab"))
+                    .title(Component.translatable("creativetab.dtool_tab"))
                     .displayItems((pParameters, pOutput) ->
                             {
                                 //TESSATTOOLS

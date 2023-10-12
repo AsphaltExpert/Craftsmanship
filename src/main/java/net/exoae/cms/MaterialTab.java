@@ -15,9 +15,9 @@ public class MaterialTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_MATERIAL_TABS =
         DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CMS.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_MATERIAL_TABS.register("material_tab",
+    public static final RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_MATERIAL_TABS.register("amaterial_tab",
             () -> CreativeModeTab.builder().icon( () -> new ItemStack(ItemInit.TESSAT_INGOT.get()))
-                    .title(Component.translatable("creativetab.material_tab"))
+                    .title(Component.translatable("creativetab.amaterial_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {
 
